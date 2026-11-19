@@ -1,11 +1,11 @@
 component,distribution_status,author_decision,reason
 project_analysis_code,public,MIT,MIT applies only to explicitly included project-authored analysis and reproduction code
-primary_score_arrays,author_selected_public,pending_upstream_terms,Author selected public release; confirm derived score and label redistribution permissions per original dataset
-evaluation_overrides,author_selected_public,pending_upstream_terms,Author selected public release; confirm derivative label and boundary terms
-timesnet_native_scores,author_selected_public,pending_upstream_terms,Author selected public release; confirm data derivative and source notices
-timesnet_split_disjoint_scores,author_selected_public,pending_upstream_terms,Author selected public release; confirm data derivative and source notices
-memto_corrected_scores,author_selected_public,pending_upstream_terms,Author selected public release; confirm score and label redistribution rights
-catch_corrected_scores,author_selected_public,pending_upstream_terms,Author selected public release; confirm RNG arrays and score redistribution rights
+primary_score_arrays,public,author_confirmed_public_release,Author authorized public release; upstream terms documented but not independently legally reviewed
+evaluation_overrides,public,author_confirmed_public_release,Author authorized public release; upstream terms documented but not independently legally reviewed
+timesnet_native_scores,public,author_confirmed_public_release,Author authorized public release; upstream terms documented but not independently legally reviewed
+timesnet_split_disjoint_scores,public,author_confirmed_public_release,Author authorized public release; upstream terms documented but not independently legally reviewed
+memto_corrected_scores,public,author_confirmed_public_release,Author authorized public release; upstream terms documented but not independently legally reviewed
+catch_corrected_scores,public,author_confirmed_public_release,Author authorized public release; upstream terms documented but not independently legally reviewed
 vendor_affiliation_code,preserve_upstream_notice,pending,Retain bundled LICENSE and pinned commit
 springer_template,pending,pending,Retain class and style notices; verify redistribution terms
 manuscript_sources,pending,pending,Confirm public release of unpublished text

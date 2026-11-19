@@ -1,6 +1,6 @@
 # Fixed-score calibration sensitivity in time-series anomaly detection
 
-**Local public-release candidate. The authors selected public release of the score-level materials, but this tree is not yet uploaded, published or licensed for redistribution.**
+**Public release. Project-authored code is MIT licensed. The authors have authorized release of the included score-level materials; component-specific upstream terms and exclusions are documented below.**
 
 This repository candidate recomputes comparisons from identified validation and test score arrays. It supports score-level reanalysis, not retraining the published detectors. It does not establish an equal-budget detector leaderboard.
 
@@ -53,12 +53,12 @@ The build searches `TEXBIN` (if set), the original Mac installation path, and th
 
 ## Versions and access
 
-Earlier archive versions contain a different manuscript and evidence set and must not be cited as if they contain this release candidate. A new version-specific DOI, public repository URL and commit/tag will be added only after actual release and anonymous-download verification. Historical 825-run and forecasting claims do not describe this candidate.
+Earlier archive versions contain a different manuscript and evidence set and must not be cited as if they contain this release. This repository is versioned by Git tag. A fixed Zenodo archive DOI will be added only after its files and metadata have been independently checked. Historical 825-run and forecasting claims do not describe this release.
 
 For PAA, provide a browsable repository with source and data files rather than only a single ZIP archive. Zenodo supplies a fixed archival version alongside that repository.
 
 ## Rights and exclusions
 
-`LICENSE` applies MIT to explicitly included project-authored analysis and reproduction code only. Before redistribution, resolve the per-component entries in `DATA_RIGHTS_REVIEW.csv` and `THIRD_PARTY_NOTICES.md`. Dataset public availability alone does not establish permission to relicense derived files. Full third-party papers, extracted full texts, raw benchmark feature matrices, detector weights, credentials, review correspondence and internal author-approval conversations are excluded.
+`LICENSE` applies MIT to explicitly included project-authored analysis and reproduction code only. The authors have authorized public release of the included derived score and label materials; `DATA_RIGHTS_REVIEW.csv` records their provenance and notes that upstream terms have not received an independent legal review. Dataset public availability alone does not establish a new blanket license for derivatives. Full third-party papers, extracted full texts, raw benchmark feature matrices, detector weights, credentials, review correspondence and internal author-approval conversations are excluded.
 
 Source-locator verification against full PDFs is not rerun by the numerical entry point: full papers remain external to this release. Stored short quotations, metadata and hashes identify the reports to consult. Author reference approval and AI source review are distinct records.
