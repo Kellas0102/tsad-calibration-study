@@ -48,11 +48,6 @@
       "sha256": "3ba8509ed442ae3f74c9fc4bfeb7b676b324f9b722f2a244af72b9c4ec0ad608"
     },
     {
-      "path": "RELEASE_VERSION.json",
-      "bytes": 238,
-      "sha256": "607ae2255f7678fc3db772c9a8ff6ac6e30e7d59d70b3ea469a2bbee1792d980"
-    },
-    {
       "path": "THIRD_PARTY_NOTICES.md",
       "bytes": 1685,
       "sha256": "0b952def11ed9196eb475f498bed43b21ac02e251583cf167b7ea440b4b89ee2"
@@ -9611,5 +9606,6 @@
     "recent_margin_001_reversals": 1,
     "project_tests": 38,
     "reference_tests": 60
-  }
+  },
+  "version_anchor": "Git tag v0.1.0-paa-candidate; record the resolved commit after push"
 }
