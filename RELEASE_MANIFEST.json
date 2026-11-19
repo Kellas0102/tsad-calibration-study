@@ -48,6 +48,11 @@
       "sha256": "3ba8509ed442ae3f74c9fc4bfeb7b676b324f9b722f2a244af72b9c4ec0ad608"
     },
     {
+      "path": "RELEASE_VERSION.json",
+      "bytes": 238,
+      "sha256": "607ae2255f7678fc3db772c9a8ff6ac6e30e7d59d70b3ea469a2bbee1792d980"
+    },
+    {
       "path": "THIRD_PARTY_NOTICES.md",
       "bytes": 1685,
       "sha256": "0b952def11ed9196eb475f498bed43b21ac02e251583cf167b7ea440b4b89ee2"
@@ -176,6 +181,21 @@
       "path": "examples/deployment_promotion.json",
       "bytes": 1872,
       "sha256": "9953853ac3537c1a0208f276abf22251286d5b3adc4c157bd3a33bc01e4ae149"
+    },
+    {
+      "path": "generated_tables/table_corrected_models.txt",
+      "bytes": 665,
+      "sha256": "55314c34d4da2700d25f034b4bb39ea7d1c9ab7fd009f9e6ab29745efc794102"
+    },
+    {
+      "path": "generated_tables/table_protocol_challenges.txt",
+      "bytes": 397,
+      "sha256": "d73d88e16bed5c10e464cba77b5f84f71075fa20c179d4f21116f92823dc4997"
+    },
+    {
+      "path": "generated_tables/table_protocol_public_fields.txt",
+      "bytes": 387,
+      "sha256": "d51f2927a4f2ba78222a3e6038fee20aa55bf3c6c457ee1670d7e14bb255cc57"
     },
     {
       "path": "inputs/analysis_contract_at_freeze.md",
@@ -8018,11 +8038,6 @@
       "sha256": "b2c8340d7463539627749a0946ac04b2c84be12b573c464ee91b06ef7200aa06"
     },
     {
-      "path": "received_corrected/corrected/SHA256SUMS.txt",
-      "bytes": 9296,
-      "sha256": "636983e7f7f92377572251e5c531030c4e856759ee5c8a82573301868ae2d60b"
-    },
-    {
       "path": "received_corrected/corrected/corrected/catch_official_machine-1-1_seed123/config.json",
       "bytes": 2503,
       "sha256": "e02b79492db44e5cc0045b590fb281453e1fba943bc8a84611801beaa555a41e"
@@ -8405,7 +8420,7 @@
     {
       "path": "received_corrected/verification.json",
       "bytes": 579,
-      "sha256": "8c3d59b301a24d704f33814d451414bf481d21e2ea0fba3f6688b97598136f34"
+      "sha256": "cb53b384eabcc1d715d2f3ecfa8132fabe79636c478ffaa3c7679e207213996f"
     },
     {
       "path": "received_corrected/verified_audit.csv",
@@ -8661,16 +8676,6 @@
       "path": "received_evidence/04_runs/timesnet_official_summary.json",
       "bytes": 5118,
       "sha256": "983dc956e4e106aa7337a5f23a90ae94b84e7fb8cfe045476200f88c2a248975"
-    },
-    {
-      "path": "received_evidence/SHA256SUMS.txt",
-      "bytes": 7685,
-      "sha256": "038a292b4a2c1e3bf51f5f2ef536d1f3bec8937a621fb9c0e5dba27ab3c330c0"
-    },
-    {
-      "path": "received_heldout/SHA256SUMS.txt",
-      "bytes": 5682,
-      "sha256": "e647dad0b89b2d4a2c84448355c4940b1a0827da542b0a7a3e188e92f6a1761b"
     },
     {
       "path": "received_heldout/_data/machine-1-1/split.json",
@@ -9071,6 +9076,11 @@
       "path": "results/protocol_v2_development_replay.csv",
       "bytes": 9935,
       "sha256": "d09bdfc6d29899f19e3c5aa185f99b1a05cfc00e8af8ac73aeb012f3255ef541"
+    },
+    {
+      "path": "results/public_candidate_final_reproduction.log",
+      "bytes": 9609,
+      "sha256": "3375426c3878e497300463bf5aae00810e7c45ea78e48e5ea85d1ab53b8e65fd"
     },
     {
       "path": "results/secondary_analysis_summary.json",
@@ -9591,5 +9601,15 @@
     "review file manifest",
     "create actual repository and Zenodo version",
     "verify anonymous download and README reproduction"
-  ]
+  ],
+  "code_license": "MIT; project-authored analysis and reproduction code only",
+  "local_numeric_reproduction_verified": true,
+  "reproduction_result": {
+    "legacy_all_four_reversals": 87,
+    "legacy_margin_001_reversals": 44,
+    "legacy_normal_only_margin_001_reversals": 18,
+    "recent_margin_001_reversals": 1,
+    "project_tests": 38,
+    "reference_tests": 60
+  }
 }
