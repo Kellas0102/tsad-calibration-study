@@ -27,6 +27,8 @@ if [[ -n "$(git remote)" ]]; then
 fi
 
 gh repo create "$REPOSITORY" --public --source=. --remote=origin --push
-git tag -a "$TAG" -m "PAA public score-level release candidate"
+if ! git rev-parse -q --verify "refs/tags/$TAG" >/dev/null; then
+  git tag -a "$TAG" -m "PAA public score-level release candidate"
+fi
 git push origin "$TAG"
 echo "Remote repository and tag created. Create a Zenodo new-version draft next; do not cite a DOI until the record is published and files are verified."

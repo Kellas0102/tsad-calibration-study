@@ -34,8 +34,8 @@
     },
     {
       "path": "PUBLISH_TO_GITHUB.sh",
-      "bytes": 1098,
-      "sha256": "f74d7e3cf7ceb51a940314872d8d1759f53664f778783188f717a6538fb96a37"
+      "bytes": 1168,
+      "sha256": "39612563221751dba28e71db975077fa382f18083b5a6da7bb5b20212549f6a9"
     },
     {
       "path": "README.md",
