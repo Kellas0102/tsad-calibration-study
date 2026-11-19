@@ -1,0 +1,2275 @@
+{
+  "status": "developer_led_research_extension",
+  "files": [
+    {
+      "path": "PLAN.md",
+      "sha256": "346c5138da832e56effb7990651981bf93a07aeb57380a4d527b69ed4a48bc33",
+      "bytes": 4718
+    },
+    {
+      "path": "PROPOSED_MANUSCRIPT_ADDITION.md",
+      "sha256": "5c503a04704ca31a8063365ccc3804f2cdc6a2070305062e629056fee2909c11",
+      "bytes": 3760
+    },
+    {
+      "path": "README.md",
+      "sha256": "7b4098e9da8754b96aab3c52f078614010876b9827264df5a44250dd69c445f9",
+      "bytes": 1915
+    },
+    {
+      "path": "RESEARCH_REPORT_ZH.md",
+      "sha256": "3bd9c9043f7d52815bcfdbde428483fd232664ff053af5efdd006e8600030818",
+      "bytes": 7688
+    },
+    {
+      "path": "SEARCH_LOG.md",
+      "sha256": "52b493dde368f8722d1599b2fbe133c1e64a10034f059328717b61b314039475",
+      "bytes": 1800
+    },
+    {
+      "path": "build_challenges.py",
+      "sha256": "36ab7d4592e7fba76d23173442a7c0d5c243f4a371a35c2ab9cf4963ff57e7e6",
+      "bytes": 6460
+    },
+    {
+      "path": "challenge_bundles/C0-artifact_changed/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-artifact_changed/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-artifact_changed/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-artifact_changed/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-artifact_changed/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-artifact_changed/scores.npz",
+      "sha256": "9758c76881daf79832607bc86d7cd64ebec280e93222dd090c25ea8938f7d3cc",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-artifact_changed/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-deploy_fixed/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-deploy_fixed/claim.json",
+      "sha256": "7a9cf13f7773c6c795daf99a35c14c4d7985425bb38c084b58a7741a36345127",
+      "bytes": 123
+    },
+    {
+      "path": "challenge_bundles/C0-deploy_fixed/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-deploy_fixed/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-deploy_fixed/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-deploy_fixed/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-deploy_fixed/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-future_online/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-future_online/claim.json",
+      "sha256": "64fee98998841d3653fcb65b35da1fafd26f55989d365c4eab8f26122604728c",
+      "bytes": 121
+    },
+    {
+      "path": "challenge_bundles/C0-future_online/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-future_online/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-future_online/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-future_online/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-future_online/temporal.json",
+      "sha256": "b9a4a0ab7c0ff5f3828495991e06ee4a5916ef1a7154a51de9e535b6c2f07917",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C0-mismatch_plus_missing/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-mismatch_plus_missing/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-mismatch_plus_missing/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-mismatch_plus_missing/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-mismatch_plus_missing/scores.npz",
+      "sha256": "9758c76881daf79832607bc86d7cd64ebec280e93222dd090c25ea8938f7d3cc",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-mismatch_plus_missing/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-missing_calibration/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-missing_calibration/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-missing_calibration/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-missing_calibration/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-missing_calibration/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-missing_calibration/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-missing_metric/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-missing_metric/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-missing_metric/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-missing_metric/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-missing_metric/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-missing_metric/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-monotone/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-monotone/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-monotone/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-monotone/identity.json",
+      "sha256": "5fe07ee7edd6c42f52a732cec480c94fe8dd62a68a90f6718ea693a23538bf8b",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-monotone/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-monotone/scores.npz",
+      "sha256": "a054d66965f6622187232842c414f079e7c48264c6d352c3e9cfaa870b90a0ed",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-monotone/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-nonsignificant_equivalence/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-nonsignificant_equivalence/claim.json",
+      "sha256": "627de06feedf1e6250a921518cec90404dca33e273482414aede51efdf1c4796",
+      "bytes": 154
+    },
+    {
+      "path": "challenge_bundles/C0-nonsignificant_equivalence/design.json",
+      "sha256": "9a14c56874c04223ec34e815a2d2be5014c7ddafd828a53714b099f5077eb805",
+      "bytes": 131
+    },
+    {
+      "path": "challenge_bundles/C0-nonsignificant_equivalence/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-nonsignificant_equivalence/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-nonsignificant_equivalence/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-nonsignificant_equivalence/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-offline_window/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-offline_window/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-offline_window/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-offline_window/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-offline_window/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-offline_window/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-offline_window/temporal.json",
+      "sha256": "b9a4a0ab7c0ff5f3828495991e06ee4a5916ef1a7154a51de9e535b6c2f07917",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_deploy/calibration.json",
+      "sha256": "64df1459f641b752eed21bdfd7b4b2b0bf57b972bc880fd06811e52359b310c2",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_deploy/claim.json",
+      "sha256": "e5cf8f41788cc2b8cb987af0ac9c5fcd0837989095489f959ef1e25efcabf143",
+      "bytes": 124
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_deploy/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_deploy/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_deploy/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_deploy/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_deploy/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_offline/calibration.json",
+      "sha256": "64df1459f641b752eed21bdfd7b4b2b0bf57b972bc880fd06811e52359b310c2",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_offline/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_offline/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_offline/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_offline/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_offline/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-oracle_offline/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-pa_mislabeled/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-pa_mislabeled/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-pa_mislabeled/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-pa_mislabeled/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-pa_mislabeled/metric.json",
+      "sha256": "b59f2ebea30b4adb12b0dd20fc245216c603de6e045829de015036f5be18426c",
+      "bytes": 75
+    },
+    {
+      "path": "challenge_bundles/C0-pa_mislabeled/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-pa_mislabeled/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-pa_named/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-pa_named/claim.json",
+      "sha256": "9d185a9372c43392482c54b953163cb49e960f22ba0a41ee116ab6e4fb759ed1",
+      "bytes": 123
+    },
+    {
+      "path": "challenge_bundles/C0-pa_named/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-pa_named/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-pa_named/metric.json",
+      "sha256": "650b6320a89fe3da2493e7112358d4e78f528a04ea258b7bfcfc34ee426f62a3",
+      "bytes": 71
+    },
+    {
+      "path": "challenge_bundles/C0-pa_named/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-pa_named/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-pa_plus_missing/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-pa_plus_missing/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-pa_plus_missing/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-pa_plus_missing/metric.json",
+      "sha256": "b59f2ebea30b4adb12b0dd20fc245216c603de6e045829de015036f5be18426c",
+      "bytes": 75
+    },
+    {
+      "path": "challenge_bundles/C0-pa_plus_missing/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-pa_plus_missing/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-seed_to_sites/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-seed_to_sites/claim.json",
+      "sha256": "e95a64db493057c01201d1eb4c63cfc2a78113f772810c7cae99df1fca701650",
+      "bytes": 104
+    },
+    {
+      "path": "challenge_bundles/C0-seed_to_sites/design.json",
+      "sha256": "9413b369bebc2aa1de3e070823e5317f24accf1c0b80a0584a6f2a9acc8eb3ca",
+      "bytes": 111
+    },
+    {
+      "path": "challenge_bundles/C0-seed_to_sites/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-seed_to_sites/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-seed_to_sites/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-seed_to_sites/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-strict/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C0-strict/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C0-strict/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C0-strict/identity.json",
+      "sha256": "f81f0dc0a3c292f178fc3f6f14ac8a8aaf5254e048a2f3089ce0814021195d88",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C0-strict/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C0-strict/scores.npz",
+      "sha256": "0a145c22116481bd6f1ab0ce6a29470a6fbb78a6c40938d98fa3efcb55093bd6",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C0-strict/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-artifact_changed/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-artifact_changed/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-artifact_changed/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-artifact_changed/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-artifact_changed/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-artifact_changed/scores.npz",
+      "sha256": "f60db87e57b99ab09c8c48fb75aad67ddf694106dd7961a01ae5cd96cca0170a",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-artifact_changed/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-deploy_fixed/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-deploy_fixed/claim.json",
+      "sha256": "7a9cf13f7773c6c795daf99a35c14c4d7985425bb38c084b58a7741a36345127",
+      "bytes": 123
+    },
+    {
+      "path": "challenge_bundles/C1-deploy_fixed/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-deploy_fixed/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-deploy_fixed/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-deploy_fixed/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-deploy_fixed/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-future_online/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-future_online/claim.json",
+      "sha256": "64fee98998841d3653fcb65b35da1fafd26f55989d365c4eab8f26122604728c",
+      "bytes": 121
+    },
+    {
+      "path": "challenge_bundles/C1-future_online/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-future_online/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-future_online/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-future_online/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-future_online/temporal.json",
+      "sha256": "b9a4a0ab7c0ff5f3828495991e06ee4a5916ef1a7154a51de9e535b6c2f07917",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C1-mismatch_plus_missing/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-mismatch_plus_missing/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-mismatch_plus_missing/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-mismatch_plus_missing/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-mismatch_plus_missing/scores.npz",
+      "sha256": "f60db87e57b99ab09c8c48fb75aad67ddf694106dd7961a01ae5cd96cca0170a",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-mismatch_plus_missing/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-missing_calibration/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-missing_calibration/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-missing_calibration/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-missing_calibration/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-missing_calibration/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-missing_calibration/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-missing_metric/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-missing_metric/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-missing_metric/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-missing_metric/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-missing_metric/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-missing_metric/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-monotone/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-monotone/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-monotone/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-monotone/identity.json",
+      "sha256": "ea3aba7c8140f65b89eae2128130251fc17f7905ea008bdb85abfc75886ce2f5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-monotone/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-monotone/scores.npz",
+      "sha256": "499d2bf6c3093ddca91db05dcf600441532adc95e750b3dbcc8aff18005a2106",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-monotone/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-nonsignificant_equivalence/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-nonsignificant_equivalence/claim.json",
+      "sha256": "627de06feedf1e6250a921518cec90404dca33e273482414aede51efdf1c4796",
+      "bytes": 154
+    },
+    {
+      "path": "challenge_bundles/C1-nonsignificant_equivalence/design.json",
+      "sha256": "9a14c56874c04223ec34e815a2d2be5014c7ddafd828a53714b099f5077eb805",
+      "bytes": 131
+    },
+    {
+      "path": "challenge_bundles/C1-nonsignificant_equivalence/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-nonsignificant_equivalence/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-nonsignificant_equivalence/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-nonsignificant_equivalence/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-offline_window/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-offline_window/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-offline_window/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-offline_window/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-offline_window/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-offline_window/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-offline_window/temporal.json",
+      "sha256": "b9a4a0ab7c0ff5f3828495991e06ee4a5916ef1a7154a51de9e535b6c2f07917",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_deploy/calibration.json",
+      "sha256": "64df1459f641b752eed21bdfd7b4b2b0bf57b972bc880fd06811e52359b310c2",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_deploy/claim.json",
+      "sha256": "e5cf8f41788cc2b8cb987af0ac9c5fcd0837989095489f959ef1e25efcabf143",
+      "bytes": 124
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_deploy/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_deploy/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_deploy/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_deploy/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_deploy/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_offline/calibration.json",
+      "sha256": "64df1459f641b752eed21bdfd7b4b2b0bf57b972bc880fd06811e52359b310c2",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_offline/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_offline/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_offline/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_offline/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_offline/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-oracle_offline/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-pa_mislabeled/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-pa_mislabeled/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-pa_mislabeled/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-pa_mislabeled/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-pa_mislabeled/metric.json",
+      "sha256": "b59f2ebea30b4adb12b0dd20fc245216c603de6e045829de015036f5be18426c",
+      "bytes": 75
+    },
+    {
+      "path": "challenge_bundles/C1-pa_mislabeled/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-pa_mislabeled/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-pa_named/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-pa_named/claim.json",
+      "sha256": "9d185a9372c43392482c54b953163cb49e960f22ba0a41ee116ab6e4fb759ed1",
+      "bytes": 123
+    },
+    {
+      "path": "challenge_bundles/C1-pa_named/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-pa_named/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-pa_named/metric.json",
+      "sha256": "650b6320a89fe3da2493e7112358d4e78f528a04ea258b7bfcfc34ee426f62a3",
+      "bytes": 71
+    },
+    {
+      "path": "challenge_bundles/C1-pa_named/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-pa_named/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-pa_plus_missing/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-pa_plus_missing/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-pa_plus_missing/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-pa_plus_missing/metric.json",
+      "sha256": "b59f2ebea30b4adb12b0dd20fc245216c603de6e045829de015036f5be18426c",
+      "bytes": 75
+    },
+    {
+      "path": "challenge_bundles/C1-pa_plus_missing/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-pa_plus_missing/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-seed_to_sites/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-seed_to_sites/claim.json",
+      "sha256": "e95a64db493057c01201d1eb4c63cfc2a78113f772810c7cae99df1fca701650",
+      "bytes": 104
+    },
+    {
+      "path": "challenge_bundles/C1-seed_to_sites/design.json",
+      "sha256": "9413b369bebc2aa1de3e070823e5317f24accf1c0b80a0584a6f2a9acc8eb3ca",
+      "bytes": 111
+    },
+    {
+      "path": "challenge_bundles/C1-seed_to_sites/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-seed_to_sites/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-seed_to_sites/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-seed_to_sites/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-strict/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C1-strict/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C1-strict/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C1-strict/identity.json",
+      "sha256": "d8f0c6c701ed8f62763dfeeb9a59ae79749afee6d16b85c8db92a639099ca32f",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C1-strict/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C1-strict/scores.npz",
+      "sha256": "91cffec22801b6fa6a86bcbfa752711967839429d68b2c70db34cae3826f7023",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C1-strict/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-artifact_changed/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-artifact_changed/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-artifact_changed/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-artifact_changed/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-artifact_changed/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-artifact_changed/scores.npz",
+      "sha256": "71a2e4444d177d7871480c9ad0853baf79541b13bfaed88e44c03bb20b23725f",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-artifact_changed/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-deploy_fixed/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-deploy_fixed/claim.json",
+      "sha256": "7a9cf13f7773c6c795daf99a35c14c4d7985425bb38c084b58a7741a36345127",
+      "bytes": 123
+    },
+    {
+      "path": "challenge_bundles/C2-deploy_fixed/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-deploy_fixed/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-deploy_fixed/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-deploy_fixed/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-deploy_fixed/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-future_online/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-future_online/claim.json",
+      "sha256": "64fee98998841d3653fcb65b35da1fafd26f55989d365c4eab8f26122604728c",
+      "bytes": 121
+    },
+    {
+      "path": "challenge_bundles/C2-future_online/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-future_online/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-future_online/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-future_online/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-future_online/temporal.json",
+      "sha256": "b9a4a0ab7c0ff5f3828495991e06ee4a5916ef1a7154a51de9e535b6c2f07917",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C2-mismatch_plus_missing/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-mismatch_plus_missing/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-mismatch_plus_missing/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-mismatch_plus_missing/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-mismatch_plus_missing/scores.npz",
+      "sha256": "71a2e4444d177d7871480c9ad0853baf79541b13bfaed88e44c03bb20b23725f",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-mismatch_plus_missing/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-missing_calibration/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-missing_calibration/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-missing_calibration/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-missing_calibration/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-missing_calibration/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-missing_calibration/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-missing_metric/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-missing_metric/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-missing_metric/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-missing_metric/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-missing_metric/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-missing_metric/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-monotone/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-monotone/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-monotone/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-monotone/identity.json",
+      "sha256": "bb2558f8490dff5065881361bda2750746b301176d29660b894e6b4cecc6ec62",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-monotone/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-monotone/scores.npz",
+      "sha256": "6cd07e9a80c3b82a421ec55caf8b6e45e2213f706d8700cacc7ae77722d1be55",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-monotone/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-offline_window/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-offline_window/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-offline_window/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-offline_window/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-offline_window/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-offline_window/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-offline_window/temporal.json",
+      "sha256": "b9a4a0ab7c0ff5f3828495991e06ee4a5916ef1a7154a51de9e535b6c2f07917",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_deploy/calibration.json",
+      "sha256": "64df1459f641b752eed21bdfd7b4b2b0bf57b972bc880fd06811e52359b310c2",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_deploy/claim.json",
+      "sha256": "e5cf8f41788cc2b8cb987af0ac9c5fcd0837989095489f959ef1e25efcabf143",
+      "bytes": 124
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_deploy/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_deploy/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_deploy/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_deploy/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_deploy/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_offline/calibration.json",
+      "sha256": "64df1459f641b752eed21bdfd7b4b2b0bf57b972bc880fd06811e52359b310c2",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_offline/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_offline/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_offline/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_offline/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_offline/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-oracle_offline/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-pa_mislabeled/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-pa_mislabeled/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-pa_mislabeled/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-pa_mislabeled/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-pa_mislabeled/metric.json",
+      "sha256": "b59f2ebea30b4adb12b0dd20fc245216c603de6e045829de015036f5be18426c",
+      "bytes": 75
+    },
+    {
+      "path": "challenge_bundles/C2-pa_mislabeled/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-pa_mislabeled/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-pa_named/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-pa_named/claim.json",
+      "sha256": "9d185a9372c43392482c54b953163cb49e960f22ba0a41ee116ab6e4fb759ed1",
+      "bytes": 123
+    },
+    {
+      "path": "challenge_bundles/C2-pa_named/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-pa_named/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-pa_named/metric.json",
+      "sha256": "650b6320a89fe3da2493e7112358d4e78f528a04ea258b7bfcfc34ee426f62a3",
+      "bytes": 71
+    },
+    {
+      "path": "challenge_bundles/C2-pa_named/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-pa_named/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-pa_plus_missing/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-pa_plus_missing/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-pa_plus_missing/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-pa_plus_missing/metric.json",
+      "sha256": "b59f2ebea30b4adb12b0dd20fc245216c603de6e045829de015036f5be18426c",
+      "bytes": 75
+    },
+    {
+      "path": "challenge_bundles/C2-pa_plus_missing/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-pa_plus_missing/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-strict/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C2-strict/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C2-strict/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C2-strict/identity.json",
+      "sha256": "c9b79fb7389fcf6b023652aa036b0ce3671ba6794948988d7d9398f947af6bf5",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C2-strict/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C2-strict/scores.npz",
+      "sha256": "c78acdcf1cf036ae67a6dfd278b1e513ca9fa0388eb8d61bff439aba29e5d298",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C2-strict/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-artifact_changed/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-artifact_changed/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-artifact_changed/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-artifact_changed/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-artifact_changed/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-artifact_changed/scores.npz",
+      "sha256": "ebe14e41874cfb0f48ab7cfa89cd30d8e53207ca52ceb683008093f7bfa6aafa",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-artifact_changed/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-deploy_fixed/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-deploy_fixed/claim.json",
+      "sha256": "7a9cf13f7773c6c795daf99a35c14c4d7985425bb38c084b58a7741a36345127",
+      "bytes": 123
+    },
+    {
+      "path": "challenge_bundles/C3-deploy_fixed/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-deploy_fixed/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-deploy_fixed/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-deploy_fixed/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-deploy_fixed/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-future_online/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-future_online/claim.json",
+      "sha256": "64fee98998841d3653fcb65b35da1fafd26f55989d365c4eab8f26122604728c",
+      "bytes": 121
+    },
+    {
+      "path": "challenge_bundles/C3-future_online/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-future_online/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-future_online/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-future_online/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-future_online/temporal.json",
+      "sha256": "b9a4a0ab7c0ff5f3828495991e06ee4a5916ef1a7154a51de9e535b6c2f07917",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C3-mismatch_plus_missing/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-mismatch_plus_missing/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-mismatch_plus_missing/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-mismatch_plus_missing/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-mismatch_plus_missing/scores.npz",
+      "sha256": "ebe14e41874cfb0f48ab7cfa89cd30d8e53207ca52ceb683008093f7bfa6aafa",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-mismatch_plus_missing/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-missing_calibration/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-missing_calibration/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-missing_calibration/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-missing_calibration/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-missing_calibration/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-missing_calibration/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-missing_metric/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-missing_metric/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-missing_metric/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-missing_metric/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-missing_metric/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-missing_metric/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-monotone/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-monotone/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-monotone/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-monotone/identity.json",
+      "sha256": "95f6ac1699ab3655202ee4fcdf9ac10c05cc4f1c83bc3c920990821b599d9f07",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-monotone/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-monotone/scores.npz",
+      "sha256": "4fa476a6927ec8eaefc9e4bcf0a53845743ad79597644ec2ebf39143c8ae1e23",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-monotone/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-offline_window/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-offline_window/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-offline_window/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-offline_window/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-offline_window/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-offline_window/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-offline_window/temporal.json",
+      "sha256": "b9a4a0ab7c0ff5f3828495991e06ee4a5916ef1a7154a51de9e535b6c2f07917",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_deploy/calibration.json",
+      "sha256": "64df1459f641b752eed21bdfd7b4b2b0bf57b972bc880fd06811e52359b310c2",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_deploy/claim.json",
+      "sha256": "e5cf8f41788cc2b8cb987af0ac9c5fcd0837989095489f959ef1e25efcabf143",
+      "bytes": 124
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_deploy/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_deploy/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_deploy/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_deploy/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_deploy/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_offline/calibration.json",
+      "sha256": "64df1459f641b752eed21bdfd7b4b2b0bf57b972bc880fd06811e52359b310c2",
+      "bytes": 64
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_offline/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_offline/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_offline/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_offline/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_offline/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-oracle_offline/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-pa_mislabeled/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-pa_mislabeled/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-pa_mislabeled/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-pa_mislabeled/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-pa_mislabeled/metric.json",
+      "sha256": "b59f2ebea30b4adb12b0dd20fc245216c603de6e045829de015036f5be18426c",
+      "bytes": 75
+    },
+    {
+      "path": "challenge_bundles/C3-pa_mislabeled/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-pa_mislabeled/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-pa_named/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-pa_named/claim.json",
+      "sha256": "9d185a9372c43392482c54b953163cb49e960f22ba0a41ee116ab6e4fb759ed1",
+      "bytes": 123
+    },
+    {
+      "path": "challenge_bundles/C3-pa_named/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-pa_named/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-pa_named/metric.json",
+      "sha256": "650b6320a89fe3da2493e7112358d4e78f528a04ea258b7bfcfc34ee426f62a3",
+      "bytes": 71
+    },
+    {
+      "path": "challenge_bundles/C3-pa_named/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-pa_named/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-pa_plus_missing/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-pa_plus_missing/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-pa_plus_missing/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-pa_plus_missing/metric.json",
+      "sha256": "b59f2ebea30b4adb12b0dd20fc245216c603de6e045829de015036f5be18426c",
+      "bytes": 75
+    },
+    {
+      "path": "challenge_bundles/C3-pa_plus_missing/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-pa_plus_missing/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-strict/calibration.json",
+      "sha256": "adb4a98884152fc3731f974dca16ded0e85d3a4e94d11710b6a70d5c0d1c4855",
+      "bytes": 70
+    },
+    {
+      "path": "challenge_bundles/C3-strict/claim.json",
+      "sha256": "f8a9d8050bc1ce7dae71d3281ee5afb92e6bce7f9f66783221bfc6c059731033",
+      "bytes": 122
+    },
+    {
+      "path": "challenge_bundles/C3-strict/design.json",
+      "sha256": "9905d926b3b915ba5d7a4ec24c029e1148ced049d53e6b67d5ee8ca1afc55bed",
+      "bytes": 82
+    },
+    {
+      "path": "challenge_bundles/C3-strict/identity.json",
+      "sha256": "e4fb6404d473be448bcc7c7a272b97ef6e4be94fd5c6651fce961e93db3c2e13",
+      "bytes": 116
+    },
+    {
+      "path": "challenge_bundles/C3-strict/metric.json",
+      "sha256": "519c4cb597d9a7b1ee4a9b58156254c740d69de63f9b2c389410db33d389ff5b",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_bundles/C3-strict/scores.npz",
+      "sha256": "4908df4b571b925f7a2576b353917bf8be9e2d553a7f288e773076aec85c8c5c",
+      "bytes": 4874
+    },
+    {
+      "path": "challenge_bundles/C3-strict/temporal.json",
+      "sha256": "4babe19eca68926068fa9c24438b8d89333860ed3f90c4c2a564ef2a0333a921",
+      "bytes": 63
+    },
+    {
+      "path": "challenge_manifest.json",
+      "sha256": "f86dfc95529b7883c2093d8f967d4e609a73c80cb853b94391fcb5849380e8bb",
+      "bytes": 65348
+    },
+    {
+      "path": "challenge_oracle.json",
+      "sha256": "9b839da609f27557423f298c4f02b59e7dbd46d1fae67c95b915a5cf50492036",
+      "bytes": 16417
+    },
+    {
+      "path": "challenge_results.csv",
+      "sha256": "945b35874897975bff75a1a2aef318ac21bac7fa718d67073b1e89d2254721fe",
+      "bytes": 9446
+    },
+    {
+      "path": "challenge_summary.json",
+      "sha256": "6842b48a0790da2c60d13d2eb4eaa1c156ba3115a7c93996f4a3293146a43c50",
+      "bytes": 960
+    },
+    {
+      "path": "evaluate_challenges.py",
+      "sha256": "b2131408a8b8573fc709b9bdaae5190478847f770194635dee6b142359e6d897",
+      "bytes": 4524
+    },
+    {
+      "path": "extract_public_cases.py",
+      "sha256": "8ea0fb44524e90a29b1c6ac4302ed9f1cdd1f99ca25ff64e2f6d541cba3dce7b",
+      "bytes": 15963
+    },
+    {
+      "path": "freeze_manifest.json",
+      "sha256": "c27417c14670a0298ba66ff989d96f8d319665e23a958a146d472f0d56c50349",
+      "bytes": 1752
+    },
+    {
+      "path": "frozen_engine/archived_pipeline_claim.json",
+      "sha256": "323c357111a319f00cad3bd8ed7ca3d61af9ac8f55f45fc08282298b81211b34",
+      "bytes": 2136
+    },
+    {
+      "path": "frozen_engine/deployment_promotion.json",
+      "sha256": "9953853ac3537c1a0208f276abf22251286d5b3adc4c157bd3a33bc01e4ae149",
+      "bytes": 1872
+    },
+    {
+      "path": "frozen_engine/diagnose_claim.py",
+      "sha256": "47cf35b7ef51f8747cfd6f7cd95bd468fc64ff673de94661ca7fe070f8c50eeb",
+      "bytes": 4058
+    },
+    {
+      "path": "frozen_engine/diagnostics.py",
+      "sha256": "9a70b3ee493da6743a4a17bd6c4324a6758b1e210fc912a608f7977b5c36ed6e",
+      "bytes": 9139
+    },
+    {
+      "path": "frozen_engine/test_diagnostics.py",
+      "sha256": "e3e009b795b3256fec06b648f1cb50948d043603cca9b83426199678e7b9a7dc",
+      "bytes": 6239
+    },
+    {
+      "path": "frozen_engine/test_evidence_workflow.py",
+      "sha256": "9c039cca01ca4dbebea6e97e7c063b6cf2cfdf524c1297c1f24f60433e525b09",
+      "bytes": 3673
+    },
+    {
+      "path": "local_sources/affiliation.pdf",
+      "sha256": "f254e2a76bd69e9bffa4f330526c08e31ae339545ebe0be04a2be89996b5f708",
+      "bytes": 913020
+    },
+    {
+      "path": "local_sources/affiliation.txt",
+      "sha256": "8371d2fbbedc65044123bdc2dec4214f554507aa21668460edd30c8e9fcd9c81",
+      "bytes": 65902
+    },
+    {
+      "path": "local_sources/catch.pdf",
+      "sha256": "7bb18834c337810be427efe056e4e8aac9d4f163a9d8b8f59375470202ff53dd",
+      "bytes": 2450790
+    },
+    {
+      "path": "local_sources/catch.txt",
+      "sha256": "74d6becba8bdf9b5732ff4cecf4d6f3cdbfb867e0fe38375cd4e3fe3f00f1c89",
+      "bytes": 124428
+    },
+    {
+      "path": "local_sources/memto.pdf",
+      "sha256": "3053efc15ee64045bf06a3b777ae09a4ef2d6d4567e5eb2f8f5baeca931c42fd",
+      "bytes": 927221
+    },
+    {
+      "path": "local_sources/memto.txt",
+      "sha256": "c1d90b3db98fa061c209904e427150460dd755fb247564266ec61d574379b7f9",
+      "bytes": 53147
+    },
+    {
+      "path": "local_sources/omnianomaly.pdf",
+      "sha256": "e09319f9f62505d6b49497484c9c2dd599e94d7bd484704d867c6bdb8f8652b3",
+      "bytes": 6217028
+    },
+    {
+      "path": "local_sources/omnianomaly.txt",
+      "sha256": "91c9f95d1c3ea7ae3be1e450f93310bd46f6c166f1d1e81ae5e5bd307168d52c",
+      "bytes": 62855
+    },
+    {
+      "path": "local_sources/pate.pdf",
+      "sha256": "86d726efdd862f3322fdc58890046c5fdcd8998e0fe9a737433bb78effa9de3a",
+      "bytes": 1223136
+    },
+    {
+      "path": "local_sources/pate.txt",
+      "sha256": "5cfb91259aa6d7db8a835dd2ba1edda037f84059087865af6b960aa0def60eac",
+      "bytes": 61626
+    },
+    {
+      "path": "local_sources/rigorous.pdf",
+      "sha256": "153966cc6b9ccf4d19e20a71430e865aaa540858db605f8aa88e28c4e062b8bb",
+      "bytes": 5767998
+    },
+    {
+      "path": "local_sources/rigorous.txt",
+      "sha256": "18c01465245063b0ffe1fdd09ace954a8ab09db429cd681ab08897b7a04e924b",
+      "bytes": 39409
+    },
+    {
+      "path": "local_sources/tab.pdf",
+      "sha256": "f75505808d3e3edd8c697eb19c38102ca7746b8a54e740be898ff3fada46040b",
+      "bytes": 3256484
+    },
+    {
+      "path": "local_sources/tab.txt",
+      "sha256": "0a5d81ae0bfbe52ef8ba2febca72b68cd6db91cb1ba2afe01d871d02fb27d69a",
+      "bytes": 96055
+    },
+    {
+      "path": "local_sources/timeeval.pdf",
+      "sha256": "6cfed272ca1e32751ae911ab2c8af469e2f5ce6de640ebc204e9ebb85c98c28e",
+      "bytes": 710239
+    },
+    {
+      "path": "local_sources/timeeval.txt",
+      "sha256": "f316a86575ef594ea5a23cf5a1bbe6bf1a7e735957935ba0ffea6ffaf3bbe196",
+      "bytes": 23354
+    },
+    {
+      "path": "local_sources/timesnet.pdf",
+      "sha256": "a45cb3d35c7b4db7091439ee714fd43dd6cd9e8f2fb1867f5463ae0433aebbd1",
+      "bytes": 4106684
+    },
+    {
+      "path": "local_sources/timesnet.txt",
+      "sha256": "e48b69a0253aeb278988db721f88d22cec592f1a819c1de2e5aa9d1e2fb64a86",
+      "bytes": 121810
+    },
+    {
+      "path": "local_sources/tsbuad.pdf",
+      "sha256": "11a2891aa662c9507bb6642d6421b1746181210603dc0d1a41584bf7add5b5fc",
+      "bytes": 3680121
+    },
+    {
+      "path": "local_sources/tsbuad.txt",
+      "sha256": "c4d6c5711fcba5caa393af432741e0d4ff46838cb25e2990e22b34f9cd17be74",
+      "bytes": 106696
+    },
+    {
+      "path": "package_research.py",
+      "sha256": "a66aa2c7be22a222845744e265fce4a2bf8a41c531a3ba91c6be109ac8684394",
+      "bytes": 1742
+    },
+    {
+      "path": "public_case_counts.json",
+      "sha256": "4b562121fec3bb9d01190ada808496b6f8d4c21082106e9877e08713dd6b2193",
+      "bytes": 939
+    },
+    {
+      "path": "public_case_summary.csv",
+      "sha256": "c8eeb4a30cef7021bfb0370c0ee33044ef5b332402ee2768f884e5d4e4b9f7ff",
+      "bytes": 5786
+    },
+    {
+      "path": "public_field_extraction.csv",
+      "sha256": "544f886b54722b9bcd54ab526f63af26a185ac842dc0d5abf4fb314cb6001e80",
+      "bytes": 17667
+    },
+    {
+      "path": "retrieval_followup.json",
+      "sha256": "4b24af34ec04210607d43d396fa6f6aa16f4b895d328331198f63ded85c2a846",
+      "bytes": 1356
+    },
+    {
+      "path": "retrieve_sources.py",
+      "sha256": "37ca31377fb3cfac03dfd1076f636a28e86ea14b0c3ff2f3061d57ff0b0e96b4",
+      "bytes": 3981
+    },
+    {
+      "path": "selected_pages_for_audit.txt",
+      "sha256": "82279cd7091730a0db97af639d848ec0971b5e80a520448c3b42ae4d24b6c5fc",
+      "bytes": 150054
+    },
+    {
+      "path": "selected_pages_readable.txt",
+      "sha256": "1437064913795f915b2204f31256d4fad8093aaa8748012b1b70f52ccca48b07",
+      "bytes": 150234
+    },
+    {
+      "path": "sources.json",
+      "sha256": "86f1a068c546f5f5d65705339392a45282c2ac227100e593a4066b7a876187ce",
+      "bytes": 6773
+    },
+    {
+      "path": "validate_extension.py",
+      "sha256": "a983f6f2b750af2bce235ae3d2f07e27e6b04dc1bd7d4d385254fdf7be1316fe",
+      "bytes": 2721
+    },
+    {
+      "path": "validation_report.json",
+      "sha256": "a0b75b8305055af887124ba30e3f5edf4a9a45384a886ba7b37ff773dac7c83c",
+      "bytes": 478
+    }
+  ]
+}

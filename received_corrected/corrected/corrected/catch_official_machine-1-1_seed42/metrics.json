@@ -1,0 +1,204 @@
+{
+ "run_id": "catch_official_machine-1-1_seed42",
+ "schedule": "official",
+ "entity": "machine-1-1",
+ "seed": 42,
+ "n_test_points": 28479,
+ "f1_rng0": 0.65120361,
+ "f1_mean_over_rng": 0.65135179,
+ "f1_std_over_rng": 0.00020529,
+ "f1_range_over_rng": 0.00049588,
+ "replay_all_identical": true,
+ "distinct_score_hashes": 5,
+ "mask_step": 17,
+ "n_batches": 178,
+ "epochs": 3,
+ "coverage_tail": [
+  3,
+  2,
+  1
+ ],
+ "per_rng": [
+  {
+   "rng": 0,
+   "threshold": 0.07877816747874021,
+   "val_f1": 0.665625,
+   "f1_test": 0.65120361,
+   "score_sha256": "671eb7fe28dbfb4c22a622f6edb0bcac",
+   "replay_identical": true,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5668,
+     "m": 5696,
+     "threshold": 0.0825175491347909,
+     "comparison": ">",
+     "f1_test": 0.66314841
+    },
+    "alpha_0.01": {
+     "k_rank": 5640,
+     "m": 5696,
+     "threshold": 0.07239599097520114,
+     "comparison": ">",
+     "f1_test": 0.62802395
+    },
+    "alpha_0.05": {
+     "k_rank": 5412,
+     "m": 5696,
+     "threshold": 0.049732083678245546,
+     "comparison": ">",
+     "f1_test": 0.4982233
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "rng": 1,
+   "threshold": 0.07880256738513708,
+   "val_f1": 0.665625,
+   "f1_test": 0.65127948,
+   "score_sha256": "8fb5e5ea025733b8b5cc7aa8a2ea1c76",
+   "replay_identical": null,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5668,
+     "m": 5696,
+     "threshold": 0.08246537011116743,
+     "comparison": ">",
+     "f1_test": 0.66254985
+    },
+    "alpha_0.01": {
+     "k_rank": 5640,
+     "m": 5696,
+     "threshold": 0.0723054464161396,
+     "comparison": ">",
+     "f1_test": 0.62787356
+    },
+    "alpha_0.05": {
+     "k_rank": 5412,
+     "m": 5696,
+     "threshold": 0.04966966480016708,
+     "comparison": ">",
+     "f1_test": 0.49747899
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "rng": 2,
+   "threshold": 0.07880798675119877,
+   "val_f1": 0.6666666666666666,
+   "f1_test": 0.65136694,
+   "score_sha256": "521057920556af20a44dadb56ae7d993",
+   "replay_identical": null,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5668,
+     "m": 5696,
+     "threshold": 0.08247504461556673,
+     "comparison": ">",
+     "f1_test": 0.66280715
+    },
+    "alpha_0.01": {
+     "k_rank": 5640,
+     "m": 5696,
+     "threshold": 0.07232609141618013,
+     "comparison": ">",
+     "f1_test": 0.62772325
+    },
+    "alpha_0.05": {
+     "k_rank": 5412,
+     "m": 5696,
+     "threshold": 0.049695427622646095,
+     "comparison": ">",
+     "f1_test": 0.49775785
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "rng": 3,
+   "threshold": 0.07881321981549264,
+   "val_f1": 0.6666666666666666,
+   "f1_test": 0.65120942,
+   "score_sha256": "70ea2b4b23dde1c55cf1ea747677e124",
+   "replay_identical": null,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5668,
+     "m": 5696,
+     "threshold": 0.08250363010913134,
+     "comparison": ">",
+     "f1_test": 0.66323378
+    },
+    "alpha_0.01": {
+     "k_rank": 5640,
+     "m": 5696,
+     "threshold": 0.07230293467640876,
+     "comparison": ">",
+     "f1_test": 0.6277984
+    },
+    "alpha_0.05": {
+     "k_rank": 5412,
+     "m": 5696,
+     "threshold": 0.04968301309272647,
+     "comparison": ">",
+     "f1_test": 0.49785087
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "rng": 4,
+   "threshold": 0.07883854646235705,
+   "val_f1": 0.6666666666666666,
+   "f1_test": 0.65169949,
+   "score_sha256": "79fedf1f589c85f0f883df1e0b216cf1",
+   "replay_identical": null,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5668,
+     "m": 5696,
+     "threshold": 0.08247432753443718,
+     "comparison": ">",
+     "f1_test": 0.66306306
+    },
+    "alpha_0.01": {
+     "k_rank": 5640,
+     "m": 5696,
+     "threshold": 0.07240060735493899,
+     "comparison": ">",
+     "f1_test": 0.62817441
+    },
+    "alpha_0.05": {
+     "k_rank": 5412,
+     "m": 5696,
+     "threshold": 0.04965403236448765,
+     "comparison": ">",
+     "f1_test": 0.49738611
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  }
+ ],
+ "wall_time_s": 437.8
+}

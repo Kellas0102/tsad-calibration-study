@@ -1,0 +1,24 @@
+{
+  "task": {
+    "group": "2-对比·SMD-1",
+    "kind": "comparison",
+    "dataset": "smd",
+    "model": "lstm",
+    "seed": 42,
+    "machine": "machine-1-1",
+    "extra": {}
+  },
+  "win_len": 100,
+  "lr": 0.001,
+  "epochs": 25,
+  "patience": 5,
+  "max_train_windows": 6000,
+  "train_anomaly_ratio": 0.05,
+  "seeds": [
+    42,
+    2024,
+    7,
+    123,
+    2026
+  ]
+}

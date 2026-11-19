@@ -1,0 +1,11 @@
+\begin{tabular}{lrrl}
+\toprule
+Challenge group & $n$ & V1 matches & V1 output \\
+\midrule
+Isolated implemented fault & 16 & 16 & Contradicted \\
+Valid listed-rule control & 24 & 24 & Within listed scope \\
+Missing evidence only & 8 & 8 & Not evaluable \\
+Known fault + missing input & 8 & 0 & Not evaluable \\
+Unsupported inference probe & 4 & 0 & Within listed scope \\
+\bottomrule
+\end{tabular}

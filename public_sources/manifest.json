@@ -1,0 +1,68 @@
+[
+  {
+    "dataset": "smd",
+    "repository": "https://github.com/NetManAIOps/OmniAnomaly",
+    "documentation_commit": "7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/README.md",
+    "retrieved_utc": "2026-11-07T02:09:46.067356+00:00",
+    "documentation_sha256": "19954a7126437e8ecc81ad6d0c7b5bb2b6ef536c15c75f9d58c5bda696f53962",
+    "local_path": "public_sources/smd_README.md",
+    "historical_input_version_claimed": false
+  },
+  {
+    "dataset": "skab",
+    "repository": "https://github.com/waico/SKAB",
+    "documentation_commit": "b2c0d46c2971dcbfe71e26087b6d231998bb91c2",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/waico/SKAB/b2c0d46c2971dcbfe71e26087b6d231998bb91c2/README.md",
+    "retrieved_utc": "2026-11-07T02:09:50.178168+00:00",
+    "documentation_sha256": "238f1a345a8fccd67540f16bce10c26dbfd7912f196832d5c165f73b8779c222",
+    "local_path": "public_sources/skab_README.md",
+    "historical_input_version_claimed": false
+  },
+  {
+    "dataset": "skab_structure",
+    "repository": "https://github.com/waico/SKAB",
+    "documentation_commit": "b2c0d46c2971dcbfe71e26087b6d231998bb91c2",
+    "path": "data/README.md",
+    "url": "https://raw.githubusercontent.com/waico/SKAB/b2c0d46c2971dcbfe71e26087b6d231998bb91c2/data/README.md",
+    "retrieved_utc": "2026-11-07T02:09:50.776863+00:00",
+    "documentation_sha256": "5696f68f1ceb4db1a7616f1a27e3675c6a9b63b123c8cbbc5390a0faff58b39b",
+    "local_path": "public_sources/skab_structure_README.md",
+    "historical_input_version_claimed": false
+  },
+  {
+    "dataset": "hai",
+    "repository": "https://github.com/icsdataset/hai",
+    "documentation_commit": "2a814cebc9a66b06c9e5cd545e2d72e65d383737",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/README.md",
+    "retrieved_utc": "2026-11-07T02:09:53.286901+00:00",
+    "documentation_sha256": "23192d8468c5afa925aa77939e49e5e16bd6f509604ca2e5751e07d6c5ccfcef",
+    "local_path": "public_sources/hai_README.md",
+    "historical_input_version_claimed": false
+  },
+  {
+    "dataset": "psm",
+    "repository": "https://github.com/eBay/RANSynCoders",
+    "documentation_commit": "948e61eb579815ff2a6bce721332d8220d59ca47",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/eBay/RANSynCoders/948e61eb579815ff2a6bce721332d8220d59ca47/README.md",
+    "retrieved_utc": "2026-11-07T02:09:54.676540+00:00",
+    "documentation_sha256": "f5a5d782e095a950df2d5d3ec05ec67fd54786b00386a4dbaca5c9ab231a445c",
+    "local_path": "public_sources/psm_README.md",
+    "historical_input_version_claimed": false
+  },
+  {
+    "dataset": "telemanom",
+    "repository": "https://github.com/khundman/telemanom",
+    "documentation_commit": "2e6c5b6c3558e7835601519b7bdef37c649bdbdc",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/khundman/telemanom/2e6c5b6c3558e7835601519b7bdef37c649bdbdc/README.md",
+    "retrieved_utc": "2026-11-07T02:09:56.216870+00:00",
+    "documentation_sha256": "9dd3f88f882533986f983c0fe65482b73abae819e3e038977675d2b57c97f79e",
+    "local_path": "public_sources/telemanom_README.md",
+    "historical_input_version_claimed": false
+  }
+]

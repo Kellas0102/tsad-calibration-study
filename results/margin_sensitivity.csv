@@ -1,0 +1,9 @@
+panel,reference_margin,n_model_pair_units,n_descriptive_material_reversals,status
+legacy,0.0,180,87,post_hoc_sensitivity_not_operational_threshold
+legacy,0.005,180,58,post_hoc_sensitivity_not_operational_threshold
+legacy,0.01,180,44,post_hoc_sensitivity_not_operational_threshold
+legacy,0.02,180,29,post_hoc_sensitivity_not_operational_threshold
+recent,0.0,6,1,post_hoc_sensitivity_not_operational_threshold
+recent,0.005,6,1,post_hoc_sensitivity_not_operational_threshold
+recent,0.01,6,1,post_hoc_sensitivity_not_operational_threshold
+recent,0.02,6,0,post_hoc_sensitivity_not_operational_threshold

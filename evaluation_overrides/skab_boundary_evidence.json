@@ -1,0 +1,8660 @@
+{
+ "rebuilt": {
+  "n_points": 37401,
+  "n_trials": 34,
+  "anomalies": 13067,
+  "anomaly_rate": 0.349376
+ },
+ "snapshots": {
+  "n": 30,
+  "identical": 30,
+  "mismatched": []
+ },
+ "verdict": "rebuilt trial-concatenated labels are identical to every snapshot: boundaries are verified for the flattened stream",
+ "trials": [
+  {
+   "rel": "other/1.csv",
+   "group": "other",
+   "rows": 745,
+   "anomalies": 188,
+   "offset_start": 0,
+   "offset_end": 745
+  },
+  {
+   "rel": "other/10.csv",
+   "group": "other",
+   "rows": 1327,
+   "anomalies": 586,
+   "offset_start": 745,
+   "offset_end": 2072
+  },
+  {
+   "rel": "other/11.csv",
+   "group": "other",
+   "rows": 1190,
+   "anomalies": 451,
+   "offset_start": 2072,
+   "offset_end": 3262
+  },
+  {
+   "rel": "other/12.csv",
+   "group": "other",
+   "rows": 1048,
+   "anomalies": 309,
+   "offset_start": 3262,
+   "offset_end": 4310
+  },
+  {
+   "rel": "other/13.csv",
+   "group": "other",
+   "rows": 923,
+   "anomalies": 265,
+   "offset_start": 4310,
+   "offset_end": 5233
+  },
+  {
+   "rel": "other/14.csv",
+   "group": "other",
+   "rows": 905,
+   "anomalies": 302,
+   "offset_start": 5233,
+   "offset_end": 6138
+  },
+  {
+   "rel": "other/2.csv",
+   "group": "other",
+   "rows": 780,
+   "anomalies": 384,
+   "offset_start": 6138,
+   "offset_end": 6918
+  },
+  {
+   "rel": "other/3.csv",
+   "group": "other",
+   "rows": 1137,
+   "anomalies": 398,
+   "offset_start": 6918,
+   "offset_end": 8055
+  },
+  {
+   "rel": "other/4.csv",
+   "group": "other",
+   "rows": 1191,
+   "anomalies": 395,
+   "offset_start": 8055,
+   "offset_end": 9246
+  },
+  {
+   "rel": "other/5.csv",
+   "group": "other",
+   "rows": 1155,
+   "anomalies": 410,
+   "offset_start": 9246,
+   "offset_end": 10401
+  },
+  {
+   "rel": "other/6.csv",
+   "group": "other",
+   "rows": 1147,
+   "anomalies": 402,
+   "offset_start": 10401,
+   "offset_end": 11548
+  },
+  {
+   "rel": "other/7.csv",
+   "group": "other",
+   "rows": 1090,
+   "anomalies": 347,
+   "offset_start": 11548,
+   "offset_end": 12638
+  },
+  {
+   "rel": "other/8.csv",
+   "group": "other",
+   "rows": 1147,
+   "anomalies": 403,
+   "offset_start": 12638,
+   "offset_end": 13785
+  },
+  {
+   "rel": "other/9.csv",
+   "group": "other",
+   "rows": 1144,
+   "anomalies": 401,
+   "offset_start": 13785,
+   "offset_end": 14929
+  },
+  {
+   "rel": "valve1/0.csv",
+   "group": "valve1",
+   "rows": 1147,
+   "anomalies": 401,
+   "offset_start": 14929,
+   "offset_end": 16076
+  },
+  {
+   "rel": "valve1/1.csv",
+   "group": "valve1",
+   "rows": 1145,
+   "anomalies": 402,
+   "offset_start": 16076,
+   "offset_end": 17221
+  },
+  {
+   "rel": "valve1/10.csv",
+   "group": "valve1",
+   "rows": 1146,
+   "anomalies": 401,
+   "offset_start": 17221,
+   "offset_end": 18367
+  },
+  {
+   "rel": "valve1/11.csv",
+   "group": "valve1",
+   "rows": 1141,
+   "anomalies": 399,
+   "offset_start": 18367,
+   "offset_end": 19508
+  },
+  {
+   "rel": "valve1/12.csv",
+   "group": "valve1",
+   "rows": 1140,
+   "anomalies": 399,
+   "offset_start": 19508,
+   "offset_end": 20648
+  },
+  {
+   "rel": "valve1/13.csv",
+   "group": "valve1",
+   "rows": 1140,
+   "anomalies": 399,
+   "offset_start": 20648,
+   "offset_end": 21788
+  },
+  {
+   "rel": "valve1/14.csv",
+   "group": "valve1",
+   "rows": 1139,
+   "anomalies": 399,
+   "offset_start": 21788,
+   "offset_end": 22927
+  },
+  {
+   "rel": "valve1/15.csv",
+   "group": "valve1",
+   "rows": 1150,
+   "anomalies": 404,
+   "offset_start": 22927,
+   "offset_end": 24077
+  },
+  {
+   "rel": "valve1/2.csv",
+   "group": "valve1",
+   "rows": 1075,
+   "anomalies": 337,
+   "offset_start": 24077,
+   "offset_end": 25152
+  },
+  {
+   "rel": "valve1/3.csv",
+   "group": "valve1",
+   "rows": 1148,
+   "anomalies": 404,
+   "offset_start": 25152,
+   "offset_end": 26300
+  },
+  {
+   "rel": "valve1/4.csv",
+   "group": "valve1",
+   "rows": 1095,
+   "anomalies": 349,
+   "offset_start": 26300,
+   "offset_end": 27395
+  },
+  {
+   "rel": "valve1/5.csv",
+   "group": "valve1",
+   "rows": 1154,
+   "anomalies": 403,
+   "offset_start": 27395,
+   "offset_end": 28549
+  },
+  {
+   "rel": "valve1/6.csv",
+   "group": "valve1",
+   "rows": 1154,
+   "anomalies": 405,
+   "offset_start": 28549,
+   "offset_end": 29703
+  },
+  {
+   "rel": "valve1/7.csv",
+   "group": "valve1",
+   "rows": 1094,
+   "anomalies": 405,
+   "offset_start": 29703,
+   "offset_end": 30797
+  },
+  {
+   "rel": "valve1/8.csv",
+   "group": "valve1",
+   "rows": 1144,
+   "anomalies": 400,
+   "offset_start": 30797,
+   "offset_end": 31941
+  },
+  {
+   "rel": "valve1/9.csv",
+   "group": "valve1",
+   "rows": 1148,
+   "anomalies": 402,
+   "offset_start": 31941,
+   "offset_end": 33089
+  },
+  {
+   "rel": "valve2/0.csv",
+   "group": "valve2",
+   "rows": 1125,
+   "anomalies": 394,
+   "offset_start": 33089,
+   "offset_end": 34214
+  },
+  {
+   "rel": "valve2/1.csv",
+   "group": "valve2",
+   "rows": 1063,
+   "anomalies": 333,
+   "offset_start": 34214,
+   "offset_end": 35277
+  },
+  {
+   "rel": "valve2/2.csv",
+   "group": "valve2",
+   "rows": 1129,
+   "anomalies": 395,
+   "offset_start": 35277,
+   "offset_end": 36406
+  },
+  {
+   "rel": "valve2/3.csv",
+   "group": "valve2",
+   "rows": 995,
+   "anomalies": 395,
+   "offset_start": 36406,
+   "offset_end": 37401
+  }
+ ],
+ "per_trial_event": [
+  {
+   "run_id": "skab_autoencoder_L100_seed123",
+   "threshold": 3.00353883,
+   "global_event_F1_seg": 0.155251,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 0.046512,
+     "point_tp": 72
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 0.017241,
+     "point_tp": 450
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 0.105263,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 0.032787,
+     "point_tp": 240
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 0.014706,
+     "point_tp": 185
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.285714,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.666667,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 1.0,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.666667,
+     "point_tp": 18
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.4,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_autoencoder_L100_seed2024",
+   "threshold": 2.3980529,
+   "global_event_F1_seg": 0.284519,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 0.015267,
+     "point_tp": 390
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 0.095238,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 0.25,
+     "point_tp": 299
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.2,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 1.0,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.5,
+     "point_tp": 25
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.142857,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_autoencoder_L100_seed2026",
+   "threshold": 1.96622956,
+   "global_event_F1_seg": 0.276423,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 0.015504,
+     "point_tp": 425
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 0.117647,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 0.5,
+     "point_tp": 301
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.166667,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.333333,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.4,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.181818,
+     "point_tp": 39
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.133333,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_autoencoder_L100_seed42",
+   "threshold": 1.25795625,
+   "global_event_F1_seg": 0.246377,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 0.333333,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.058824,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.076923,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.05,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.03125,
+     "point_tp": 70
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.038462,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_autoencoder_L100_seed7",
+   "threshold": 1.84445431,
+   "global_event_F1_seg": 0.316279,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 0.02381,
+     "point_tp": 522
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 0.666667,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.117647,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.2,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.285714,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.086957,
+     "point_tp": 39
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.090909,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_cnn-lstm_L100_seed123",
+   "threshold": 0.22193503,
+   "global_event_F1_seg": 0.278689,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.181818,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.0625,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.026316,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.071429,
+     "point_tp": 39
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.04878,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_cnn-lstm_L100_seed2024",
+   "threshold": 0.33566797,
+   "global_event_F1_seg": 0.343434,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.333333,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.285714,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.133333,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.086957,
+     "point_tp": 10
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.022222,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_cnn-lstm_L100_seed2026",
+   "threshold": 0.20692217,
+   "global_event_F1_seg": 0.22973,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.133333,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.045455,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.017391,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.03125,
+     "point_tp": 205
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_cnn-lstm_L100_seed42",
+   "threshold": 0.17919293,
+   "global_event_F1_seg": 0.241993,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.086957,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.051282,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.018018,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.04,
+     "point_tp": 100
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.666667,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_cnn-lstm_L100_seed7",
+   "threshold": 0.19292152,
+   "global_event_F1_seg": 0.213166,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.086957,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.040816,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.019048,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.024096,
+     "point_tp": 135
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_gru_L100_seed123",
+   "threshold": 0.09304984,
+   "global_event_F1_seg": 0.304933,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.142857,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.083333,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.044444,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.066667,
+     "point_tp": 20
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.037736,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_gru_L100_seed2024",
+   "threshold": 0.07103066,
+   "global_event_F1_seg": 0.257576,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.111111,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.046512,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.028986,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.060606,
+     "point_tp": 24
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.044444,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_gru_L100_seed2026",
+   "threshold": 0.05204035,
+   "global_event_F1_seg": 0.182306,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.058824,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.025316,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.014388,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.04,
+     "point_tp": 88
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.133333,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_gru_L100_seed42",
+   "threshold": 0.06118565,
+   "global_event_F1_seg": 0.188889,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.058824,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.026667,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.016949,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.042553,
+     "point_tp": 67
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.066667,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_gru_L100_seed7",
+   "threshold": 0.09486007,
+   "global_event_F1_seg": 0.246377,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.117647,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.051282,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.033898,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.04878,
+     "point_tp": 32
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.03125,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_lstm_L100_seed123",
+   "threshold": 0.17609196,
+   "global_event_F1_seg": 0.290598,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.181818,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.090909,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.044444,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.055556,
+     "point_tp": 17
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.031746,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_lstm_L100_seed2024",
+   "threshold": 0.21469298,
+   "global_event_F1_seg": 0.338308,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.222222,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.125,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.068966,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.08,
+     "point_tp": 9
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.030769,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_lstm_L100_seed2026",
+   "threshold": 0.12024565,
+   "global_event_F1_seg": 0.236934,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.1,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.037736,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.021739,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.047619,
+     "point_tp": 56
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.086957,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_lstm_L100_seed42",
+   "threshold": 0.12638706,
+   "global_event_F1_seg": 0.325359,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.153846,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.05,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.031746,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.066667,
+     "point_tp": 51
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.285714,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_lstm_L100_seed7",
+   "threshold": 0.11307371,
+   "global_event_F1_seg": 0.238596,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.090909,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.033333,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.022472,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.04878,
+     "point_tp": 76
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.117647,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_ours_L100_seed123",
+   "threshold": 0.77524001,
+   "global_event_F1_seg": 0.369565,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.133333,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.086957,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.142857,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.1,
+     "point_tp": 49
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.036364,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_ours_L100_seed2024",
+   "threshold": 2.45347618,
+   "global_event_F1_seg": 0.566667,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 0.5,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.25,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.666667,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.285714,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.095238,
+     "point_tp": 20
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.086957,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_ours_L100_seed2026",
+   "threshold": 0.68285392,
+   "global_event_F1_seg": 0.507463,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.117647,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.105263,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.166667,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.111111,
+     "point_tp": 53
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.166667,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_ours_L100_seed42",
+   "threshold": 0.54868208,
+   "global_event_F1_seg": 0.363636,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.090909,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.060606,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.032787,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.153846,
+     "point_tp": 78
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.666667,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_ours_L100_seed7",
+   "threshold": 0.82205896,
+   "global_event_F1_seg": 0.523077,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.117647,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.111111,
+     "point_tp": 402
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.111111,
+     "point_tp": 347
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.117647,
+     "point_tp": 56
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.5,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_transformer_L100_seed123",
+   "threshold": 0.03990505,
+   "global_event_F1_seg": 0.167488,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.066667,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.029412,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.013072,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.020833,
+     "point_tp": 167
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.666667,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_transformer_L100_seed2024",
+   "threshold": 0.08896034,
+   "global_event_F1_seg": 0.357895,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.181818,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.076923,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.037037,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.051282,
+     "point_tp": 36
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.666667,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_transformer_L100_seed2026",
+   "threshold": 0.04983544,
+   "global_event_F1_seg": 0.201183,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.111111,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.034483,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.017391,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.025641,
+     "point_tp": 101
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.153846,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_transformer_L100_seed42",
+   "threshold": 0.06810464,
+   "global_event_F1_seg": 0.2,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.125,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.036364,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.016667,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.022222,
+     "point_tp": 153
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  },
+  {
+   "run_id": "skab_transformer_L100_seed7",
+   "threshold": 0.02584589,
+   "global_event_F1_seg": 0.150442,
+   "trials": [
+    {
+     "rel": "other/1.csv",
+     "group": "other",
+     "rows": 745,
+     "anomalies": 188,
+     "event_F1_seg": 1.0,
+     "point_tp": 188
+    },
+    {
+     "rel": "other/10.csv",
+     "group": "other",
+     "rows": 1327,
+     "anomalies": 586,
+     "event_F1_seg": 1.0,
+     "point_tp": 586
+    },
+    {
+     "rel": "other/11.csv",
+     "group": "other",
+     "rows": 1190,
+     "anomalies": 451,
+     "event_F1_seg": 1.0,
+     "point_tp": 451
+    },
+    {
+     "rel": "other/12.csv",
+     "group": "other",
+     "rows": 1048,
+     "anomalies": 309,
+     "event_F1_seg": 1.0,
+     "point_tp": 309
+    },
+    {
+     "rel": "other/13.csv",
+     "group": "other",
+     "rows": 923,
+     "anomalies": 265,
+     "event_F1_seg": 1.0,
+     "point_tp": 265
+    },
+    {
+     "rel": "other/14.csv",
+     "group": "other",
+     "rows": 905,
+     "anomalies": 302,
+     "event_F1_seg": 1.0,
+     "point_tp": 302
+    },
+    {
+     "rel": "other/2.csv",
+     "group": "other",
+     "rows": 780,
+     "anomalies": 384,
+     "event_F1_seg": 1.0,
+     "point_tp": 384
+    },
+    {
+     "rel": "other/3.csv",
+     "group": "other",
+     "rows": 1137,
+     "anomalies": 398,
+     "event_F1_seg": 1.0,
+     "point_tp": 398
+    },
+    {
+     "rel": "other/4.csv",
+     "group": "other",
+     "rows": 1191,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "other/5.csv",
+     "group": "other",
+     "rows": 1155,
+     "anomalies": 410,
+     "event_F1_seg": 0.060606,
+     "point_tp": 410
+    },
+    {
+     "rel": "other/6.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 402,
+     "event_F1_seg": 0.01626,
+     "point_tp": 401
+    },
+    {
+     "rel": "other/7.csv",
+     "group": "other",
+     "rows": 1090,
+     "anomalies": 347,
+     "event_F1_seg": 0.013514,
+     "point_tp": 346
+    },
+    {
+     "rel": "other/8.csv",
+     "group": "other",
+     "rows": 1147,
+     "anomalies": 403,
+     "event_F1_seg": 0.022472,
+     "point_tp": 326
+    },
+    {
+     "rel": "other/9.csv",
+     "group": "other",
+     "rows": 1144,
+     "anomalies": 401,
+     "event_F1_seg": 0.666667,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/0.csv",
+     "group": "valve1",
+     "rows": 1147,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/1.csv",
+     "group": "valve1",
+     "rows": 1145,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve1/10.csv",
+     "group": "valve1",
+     "rows": 1146,
+     "anomalies": 401,
+     "event_F1_seg": 1.0,
+     "point_tp": 401
+    },
+    {
+     "rel": "valve1/11.csv",
+     "group": "valve1",
+     "rows": 1141,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/12.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/13.csv",
+     "group": "valve1",
+     "rows": 1140,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/14.csv",
+     "group": "valve1",
+     "rows": 1139,
+     "anomalies": 399,
+     "event_F1_seg": 1.0,
+     "point_tp": 399
+    },
+    {
+     "rel": "valve1/15.csv",
+     "group": "valve1",
+     "rows": 1150,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/2.csv",
+     "group": "valve1",
+     "rows": 1075,
+     "anomalies": 337,
+     "event_F1_seg": 1.0,
+     "point_tp": 337
+    },
+    {
+     "rel": "valve1/3.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 404,
+     "event_F1_seg": 1.0,
+     "point_tp": 404
+    },
+    {
+     "rel": "valve1/4.csv",
+     "group": "valve1",
+     "rows": 1095,
+     "anomalies": 349,
+     "event_F1_seg": 1.0,
+     "point_tp": 349
+    },
+    {
+     "rel": "valve1/5.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 403,
+     "event_F1_seg": 1.0,
+     "point_tp": 403
+    },
+    {
+     "rel": "valve1/6.csv",
+     "group": "valve1",
+     "rows": 1154,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/7.csv",
+     "group": "valve1",
+     "rows": 1094,
+     "anomalies": 405,
+     "event_F1_seg": 1.0,
+     "point_tp": 405
+    },
+    {
+     "rel": "valve1/8.csv",
+     "group": "valve1",
+     "rows": 1144,
+     "anomalies": 400,
+     "event_F1_seg": 1.0,
+     "point_tp": 400
+    },
+    {
+     "rel": "valve1/9.csv",
+     "group": "valve1",
+     "rows": 1148,
+     "anomalies": 402,
+     "event_F1_seg": 1.0,
+     "point_tp": 402
+    },
+    {
+     "rel": "valve2/0.csv",
+     "group": "valve2",
+     "rows": 1125,
+     "anomalies": 394,
+     "event_F1_seg": 1.0,
+     "point_tp": 394
+    },
+    {
+     "rel": "valve2/1.csv",
+     "group": "valve2",
+     "rows": 1063,
+     "anomalies": 333,
+     "event_F1_seg": 1.0,
+     "point_tp": 333
+    },
+    {
+     "rel": "valve2/2.csv",
+     "group": "valve2",
+     "rows": 1129,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    },
+    {
+     "rel": "valve2/3.csv",
+     "group": "valve2",
+     "rows": 995,
+     "anomalies": 395,
+     "event_F1_seg": 1.0,
+     "point_tp": 395
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+run_id,f1_saved_error,split_geometry_verified,coverage_geometry_verified,saved_budget_calibration_source,saved_budget_nominal_k,saved_budget_actual_exceedances,saved_budget_exact_k_claim_verified
+timesnet_heldout_machine-1-1_seed123,1.8918919764132625e-09,True,True,all_injected_validation_scores,285,284,False
+timesnet_heldout_machine-1-1_seed2024,1.9849873966748532e-09,True,True,all_injected_validation_scores,285,284,False
+timesnet_heldout_machine-1-1_seed2026,4.177579504549556e-09,True,True,all_injected_validation_scores,285,284,False
+timesnet_heldout_machine-1-1_seed42,4.711246281985382e-09,True,True,all_injected_validation_scores,285,284,False
+timesnet_heldout_machine-1-1_seed7,4.4680851241096775e-09,True,True,all_injected_validation_scores,285,284,False
+timesnet_heldout_machine-3-1_seed123,1.340482558287448e-09,True,True,all_injected_validation_scores,287,286,False
+timesnet_heldout_machine-3-1_seed2024,2.959898159904384e-09,True,True,all_injected_validation_scores,287,286,False
+timesnet_heldout_machine-3-1_seed2026,1.2556053974321912e-09,True,True,all_injected_validation_scores,287,286,False
+timesnet_heldout_machine-3-1_seed42,1.0244547432591844e-09,True,True,all_injected_validation_scores,287,286,False
+timesnet_heldout_machine-3-1_seed7,4.1104294412619424e-09,True,True,all_injected_validation_scores,287,286,False

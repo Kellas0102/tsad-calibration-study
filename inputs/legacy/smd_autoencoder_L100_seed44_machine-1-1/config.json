@@ -1,0 +1,13 @@
+{
+  "model": "autoencoder",
+  "dataset": "smd",
+  "seed": 44,
+  "machine": "machine-1-1",
+  "win_len": 100,
+  "lr": 0.001,
+  "epochs": 25,
+  "patience": 5,
+  "train_anomaly_ratio": 0.05,
+  "max_train_windows": 6000,
+  "note": "乙④ 种子扩充，超参与 run_grid.py 主对比实验一致"
+}

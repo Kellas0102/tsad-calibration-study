@@ -1,0 +1,44 @@
+{
+  "cases": 60,
+  "groups": {
+    "implemented_fault": {
+      "n": 16,
+      "matched": 16,
+      "predictions": {
+        "contradicted": 16
+      }
+    },
+    "missing_evidence": {
+      "n": 8,
+      "matched": 8,
+      "predictions": {
+        "not_evaluable": 8
+      }
+    },
+    "mixed_fault_missing": {
+      "n": 8,
+      "matched": 0,
+      "predictions": {
+        "not_evaluable": 8
+      }
+    },
+    "unimplemented_scope_probe": {
+      "n": 4,
+      "matched": 0,
+      "predictions": {
+        "within_scope": 4
+      }
+    },
+    "valid_control": {
+      "n": 24,
+      "matched": 24,
+      "predictions": {
+        "within_scope": 24
+      }
+    }
+  },
+  "affine_prediction_sets_identical": 4,
+  "sampling": "same-developer synthetic structured-evidence fixtures; no independent sample accuracy",
+  "engine_modified_after_freeze": false,
+  "issue": "missing-field short circuit can mask known contradictions; two scope predicates absent"
+}

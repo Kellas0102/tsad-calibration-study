@@ -1,0 +1,15 @@
+{
+ "run_id": "timesnet_heldout_machine-3-1_seed2026",
+ "entity": "machine-3-1",
+ "seed": 2026,
+ "n_test_points": 28700,
+ "coverage_min": 1,
+ "coverage_max": 100,
+ "thr_f1": 0.3997359822690487,
+ "thr_f1_value_on_val": 0.83229814,
+ "f1_test": 0.33295964,
+ "f1_test_budget_strategy": 0.36318715,
+ "epochs_run": 10,
+ "best_val_recon": 0.04842255,
+ "scores_finite": true
+}

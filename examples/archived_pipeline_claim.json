@@ -1,0 +1,15 @@
+{
+  "claim_id": "EX-HAI-ARCHIVED-001",
+  "claim": "On the inherited HAI score timeline, the diagnostic model has higher mean strict point-wise F1 under the validation-normal 5% rule than under validation F1-max, over the five archived seeds. This is a descriptive score-array result, not independent deployment evidence.",
+  "target": "pipeline",
+  "gates": {
+    "G1": {"status": "within_scope", "evidence": ["inputs/manifest.json", "results/integrity_audit.csv"], "explanation": "The selected score and metadata identities were hash-checked; the claim concerns these artifacts only."},
+    "G2": {"status": "within_scope", "evidence": ["code/diagnostics.py:metrics", "code/test_diagnostics.py", "results/model_policy_summary.csv"], "explanation": "The claim explicitly names strict point-wise F1, not event utility."},
+    "G3": {"status": "within_scope", "evidence": ["ANALYSIS_CONTRACT.md", "code/reanalyze.py"], "explanation": "New calibration uses validation arrays only. Historical training/test independence is not asserted by this archived-score claim."},
+    "G4": {"status": "within_scope", "evidence": ["manuscript/main.tex:Temporal and information restrictions"], "explanation": "The inherited offline timeline is named; no causal online delay or original timestamp reconciliation is asserted."},
+    "G5": {"status": "within_scope", "evidence": ["results/model_policy_summary.csv", "results/calibration_envelopes.csv"], "explanation": "The two compared policies belong to the declared family; all policy outcomes remain available, including unfavorable outcomes."},
+    "G6": {"status": "within_scope", "evidence": ["results/paired_contrasts.csv", "manuscript/main.tex:Pairing, uncertainty, and multiplicity"], "explanation": "The claim is descriptive over five archived seeds. It makes neither a significance nor an equivalence assertion."},
+    "G7": {"status": "not_applicable", "explanation": "No generalization beyond this selected timeline or implementation is asserted."},
+    "G8": {"status": "not_applicable", "explanation": "The claim is not about industrial workload, cost, delay or deployment benefit."}
+  }
+}

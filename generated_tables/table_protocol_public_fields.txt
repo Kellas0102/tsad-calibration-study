@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrr}
+\toprule
+Field & Explicit & Partial & Unresolved & N/A \\
+\midrule
+Metric semantics & 9 & 1 & 0 & 0 \\
+Calibration/integration & 7 & 1 & 1 & 1 \\
+Temporal/aggregation scope & 10 & 0 & 0 & 0 \\
+Replication/sampling description & 6 & 3 & 0 & 1 \\
+Artifact access pointer & 8 & 0 & 2 & 0 \\
+Utility of selected statement & 0 & 0 & 0 & 10 \\
+\bottomrule
+\end{tabular}

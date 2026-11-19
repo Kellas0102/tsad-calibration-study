@@ -1,0 +1,38 @@
+{
+  "selected_reports": 10,
+  "retrieved_reports": 10,
+  "initial_failures": 2,
+  "same_report_retrieval_followups": 2,
+  "field_records": 60,
+  "counts": {
+    "metric": {
+      "partial": 1,
+      "explicit": 9
+    },
+    "calibration": {
+      "unresolved": 1,
+      "explicit": 7,
+      "partial": 1,
+      "not_applicable": 1
+    },
+    "temporal": {
+      "explicit": 10
+    },
+    "replication": {
+      "explicit": 6,
+      "partial": 3,
+      "not_applicable": 1
+    },
+    "artifact_pointer": {
+      "explicit": 8,
+      "unresolved": 2
+    },
+    "utility": {
+      "not_applicable": 10
+    }
+  },
+  "design": "purposive already-cited panel; single-AI extraction; not systematic or independent validation",
+  "excerpt_checks": "all positive quotations located in the named PDF page under NFKC/whitespace/line-wrap-hyphen normalization",
+  "no_full_artifact_or_deployment_certificate": true,
+  "human_verification": "pending"
+}

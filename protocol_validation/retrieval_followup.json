@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "timeeval",
+    "group": "benchmark",
+    "expected_title": "TimeEval: A Benchmarking Toolkit for Time Series Anomaly Detection Algorithms",
+    "requested_url": "https://www.vldb.org/pvldb/vol15/p3678-schmidl.pdf",
+    "retrieved_utc": "2026-11-12T02:26:45.599010+00:00",
+    "redistribution": "not_authorized_by_this_download; local_audit_only",
+    "resolved_url": "https://www.vldb.org/pvldb/vol15/p3678-schmidl.pdf",
+    "status": "retrieved",
+    "pdf_sha256": "6cfed272ca1e32751ae911ab2c8af469e2f5ce6de640ebc204e9ebb85c98c28e",
+    "pages": 4,
+    "local_pdf": "local_sources/timeeval.pdf",
+    "local_text": "local_sources/timeeval.txt",
+    "title_identity": "pending_reading"
+  },
+  {
+    "case_id": "pate",
+    "group": "evaluation",
+    "expected_title": "PATE: Proximity-Aware Time Series Anomaly Evaluation",
+    "requested_url": "https://arxiv.org/pdf/2405.12096v1",
+    "retrieved_utc": "2026-11-12T02:26:52.387786+00:00",
+    "redistribution": "not_authorized_by_this_download; local_audit_only",
+    "resolved_url": "https://arxiv.org/pdf/2405.12096v1",
+    "status": "retrieved",
+    "pdf_sha256": "86d726efdd862f3322fdc58890046c5fdcd8998e0fe9a737433bb78effa9de3a",
+    "pages": 12,
+    "local_pdf": "local_sources/pate.pdf",
+    "local_text": "local_sources/pate.txt",
+    "title_identity": "pending_reading"
+  }
+]

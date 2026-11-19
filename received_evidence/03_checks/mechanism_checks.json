@@ -1,0 +1,28 @@
+{
+ "device": "cuda",
+ "torch": "2.11.0+cu128",
+ "A_memto_gate": {
+  "repo": "gunny97/MEMTO@5a3287103021c5c7e7cac9377c626cf18bdea50c",
+  "U_grad_is_none": true,
+  "W_grad_is_none": true,
+  "mem_is_parameter": false,
+  "mem_requires_grad": true,
+  "read_output_shape": [
+   32,
+   128
+  ],
+  "verdict": "official gate receives NO gradient from the reconstruction loss"
+ },
+ "B_catch_mask_randomness": {
+  "repo": "decisionintelligence/CATCH@3647c69be5eb56649b072596cf89098e689e20c3",
+  "error": "ModuleNotFoundError: No module named 'reformer_pytorch'"
+ },
+ "C_catch_optimizers": {
+  "has_optimizerM": true,
+  "mask_generator_own_optimizer": true,
+  "two_onecycle": true,
+  "mask_step_every_k": true,
+  "mask_step_inside_loop": true,
+  "verdict": "official CATCH trains the channel-mask generator with a separate Adam + OneCycleLR, stepping it every min(len(loader)/10, 100) iterations with gradients accumulated in between"
+ }
+}

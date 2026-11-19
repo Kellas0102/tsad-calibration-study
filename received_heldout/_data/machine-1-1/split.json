@@ -1,0 +1,40 @@
+{
+ "entity": "machine-1-1",
+ "window": 100,
+ "raw_train_points": 28479,
+ "split_index_i80": 22783,
+ "train_segment": [
+  0,
+  22783
+ ],
+ "val_segment": [
+  22783,
+  28479
+ ],
+ "train_points": 22783,
+ "val_points": 5696,
+ "test_points": 28479,
+ "test_anomaly_rate": 0.094596,
+ "train_window_range": [
+  0,
+  22683
+ ],
+ "val_window_range": [
+  22783,
+  28379
+ ],
+ "n_train_windows": 22684,
+ "n_val_windows": 5597,
+ "n_test_windows": 28380,
+ "scaler_fit_range": [
+  0,
+  22783
+ ],
+ "disjointness": {
+  "train_val_overlap": 0,
+  "train_test_overlap": 0,
+  "val_test_overlap": 0,
+  "max_train_index": 22782,
+  "min_val_index": 22783
+ }
+}

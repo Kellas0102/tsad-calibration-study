@@ -1,0 +1,40 @@
+{
+ "machine-1-1": {
+  "split_index_i80": 22783,
+  "train_window_range": [
+   0,
+   22683
+  ],
+  "val_window_range": [
+   22783,
+   28379
+  ],
+  "max_train_index": 22782,
+  "min_val_index": 22783,
+  "n_train_windows": 22684,
+  "n_val_windows": 5597,
+  "scaler_fit_range": [
+   0,
+   22783
+  ]
+ },
+ "machine-3-1": {
+  "split_index_i80": 22960,
+  "train_window_range": [
+   0,
+   22860
+  ],
+  "val_window_range": [
+   22960,
+   28600
+  ],
+  "max_train_index": 22959,
+  "min_val_index": 22960,
+  "n_train_windows": 22861,
+  "n_val_windows": 5641,
+  "scaler_fit_range": [
+   0,
+   22960
+  ]
+ }
+}

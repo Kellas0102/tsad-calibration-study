@@ -1,0 +1,259 @@
+{
+  "hai_runs": 30,
+  "hai_label_differences": 32,
+  "hai_policy_scenario_rows": 360,
+  "hai_consolidation_rows": 1440,
+  "hai_allocation_max_error": 2.7755575615628914e-16,
+  "skab_runs_verified": 45,
+  "skab_trials": 34,
+  "timesnet_native_runs": 10,
+  "hai_test2_alignment": "positional_assumption_not_verified_seconds",
+  "new_model_execution": false
+}
+{
+  "archive_checksum_entries_verified": 76,
+  "score_runs": 20,
+  "coverage_arrays_verified": 180,
+  "policy_rng_records": 240,
+  "memto_test_matrices_reaggregated": 10,
+  "catch_rng_f1_sd_min": 4.4618203564934114e-05,
+  "catch_rng_f1_sd_max": 0.0011061883590360985,
+  "catch_rng_f1_max_range": 0.0026364274468120286,
+  "max_saved_f1_error": 4.997163932651816e-09,
+  "model_execution": false,
+  "replay_scope": "rng0 test replay reported by runner; replay vectors absent",
+  "acceptance": "score-level consistency accepted; model-specific training/state limitations retained"
+}
+Processed 60 runs
+Processed 120 runs
+Processed 180 runs
+Processed 240 runs
+Processed 300 runs
+Processed 360 runs
+{
+  "n_runs": 384,
+  "n_policy_rows": 1536,
+  "policy_family": [
+    "val_f1",
+    "normal_005",
+    "normal_010",
+    "normal_050"
+  ],
+  "n_contrast_policy_cells": 744,
+  "n_model_pair_units": 186,
+  "n_signed_allocations": 3660,
+  "n_units": 14,
+  "panel_runs": {
+    "legacy": 354,
+    "recent": 30
+  },
+  "max_archived_f1_error": 1.1102230246251565e-16,
+  "max_archived_threshold_snapshot_error": 0.0,
+  "validation_reselection_prediction_matches": 384,
+  "normal_budget_pass_runs": 384,
+  "monotone_invariance_pass_runs": 384,
+  "monotone_admissible_cases": 3028,
+  "monotone_admissible_failures": 0,
+  "finite_precision_collapse_cases": 44,
+  "max_identity_error": 1.1102230246251565e-16,
+  "max_allocation_error": 2.498001805406602e-16,
+  "validation_label_alignment_failures": 0,
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "bootstrap_replicates": 10000,
+  "alpha": 0.05,
+  "practical_margin": 0.0,
+  "analysis_status": "retrospective_exploratory_not_preregistered",
+  "submission_ready": false,
+  "evaluation_corrections": {
+    "hai_override": "evaluation_overrides/labels_correct_60000.npy",
+    "hai_label_sha256": "99629a12c1716383c917e3ed6007948fc1b7771313802ad1963b0bd08eff03ad",
+    "original_snapshots_modified": false,
+    "hai_test2_alignment": "positional_assumption"
+  }
+}
+Saved 16 policy-family sensitivity rows; 720 HAI run/policy/width rows
+{'panel': 'legacy', 'family': 'all_four', 'K': 4, 'reference_margin': 0.01, 'model_pair_units': 180, 'reversals': 44, 'status': 'post_hoc_descriptive_sensitivity'}
+{'panel': 'legacy', 'family': 'normal_only', 'K': 3, 'reference_margin': 0.01, 'model_pair_units': 180, 'reversals': 18, 'status': 'post_hoc_descriptive_sensitivity'}
+{'panel': 'recent', 'family': 'all_four', 'K': 4, 'reference_margin': 0.01, 'model_pair_units': 6, 'reversals': 1, 'status': 'post_hoc_descriptive_sensitivity'}
+{'panel': 'recent', 'family': 'normal_only', 'K': 3, 'reference_margin': 0.01, 'model_pair_units': 6, 'reversals': 1, 'status': 'post_hoc_descriptive_sensitivity'}
+{'model': 'ours', 'policy': 'normal_050', 'gap_points': 0, 'f1_mean': 0.6213897723390938, 'fpr_mean': 0.01609534859192068, 'event_f1_mean': 0.10042339569622578, 'event_precision_mean': 0.0536132795212399, 'event_recall_mean': 0.9466666666666667, 'n_predicted_events_mean': 364.8, 'event_tp_mean': 14.2, 'event_fp_mean': 350.6, 'event_fn_mean': 0.8, 'unmatched_overlapping_alarms_mean': 94.8, 'alarms_without_true_overlap_mean': 255.8}
+{'model': 'ours', 'policy': 'normal_050', 'gap_points': 10, 'f1_mean': 0.6365074196813836, 'fpr_mean': 0.020897936223323844, 'event_f1_mean': 0.19973364479932249, 'event_precision_mean': 0.11379176176399415, 'event_recall_mean': 0.9466666666666667, 'n_predicted_events_mean': 182.8, 'event_tp_mean': 14.2, 'event_fp_mean': 168.6, 'event_fn_mean': 0.8, 'unmatched_overlapping_alarms_mean': 16.0, 'alarms_without_true_overlap_mean': 152.6}
+{'model': 'ours', 'policy': 'normal_050', 'gap_points': 60, 'f1_mean': 0.6259312668474634, 'fpr_mean': 0.046426185704742814, 'event_f1_mean': 0.2668445822377728, 'event_precision_mean': 0.15931269099361767, 'event_recall_mean': 0.9466666666666667, 'n_predicted_events_mean': 122.8, 'event_tp_mean': 14.2, 'event_fp_mean': 108.6, 'event_fn_mean': 0.8, 'unmatched_overlapping_alarms_mean': 1.0, 'alarms_without_true_overlap_mean': 107.6}
+{'model': 'ours', 'policy': 'val_f1', 'gap_points': 0, 'f1_mean': 0.33228828644312325, 'fpr_mean': 0.005428400660971064, 'event_f1_mean': 0.33275233568295154, 'event_precision_mean': 0.22105251385177863, 'event_recall_mean': 0.8133333333333332, 'n_predicted_events_mean': 112.0, 'event_tp_mean': 12.2, 'event_fp_mean': 99.8, 'event_fn_mean': 2.8, 'unmatched_overlapping_alarms_mean': 26.4, 'alarms_without_true_overlap_mean': 73.4}
+{'model': 'ours', 'policy': 'val_f1', 'gap_points': 10, 'f1_mean': 0.3529188692512522, 'fpr_mean': 0.006026087262243786, 'event_f1_mean': 0.5410058089343458, 'event_precision_mean': 0.4563002070393375, 'event_recall_mean': 0.8133333333333332, 'n_predicted_events_mean': 79.8, 'event_tp_mean': 12.2, 'event_fp_mean': 67.6, 'event_fn_mean': 2.8, 'unmatched_overlapping_alarms_mean': 7.8, 'alarms_without_true_overlap_mean': 59.8}
+{'model': 'ours', 'policy': 'val_f1', 'gap_points': 60, 'f1_mean': 0.390074866210389, 'fpr_mean': 0.01143339310199346, 'event_f1_mean': 0.6383824553260617, 'event_precision_mean': 0.6110624021471707, 'event_recall_mean': 0.8133333333333332, 'n_predicted_events_mean': 65.4, 'event_tp_mean': 12.2, 'event_fp_mean': 53.2, 'event_fn_mean': 2.8, 'unmatched_overlapping_alarms_mean': 1.6, 'alarms_without_true_overlap_mean': 51.6}
+{
+  "cases": 60,
+  "groups": {
+    "implemented_fault": {
+      "n": 16,
+      "matched": 16,
+      "predictions": {
+        "contradicted": 16
+      }
+    },
+    "missing_evidence": {
+      "n": 8,
+      "matched": 8,
+      "predictions": {
+        "not_evaluable": 8
+      }
+    },
+    "mixed_fault_missing": {
+      "n": 8,
+      "matched": 0,
+      "predictions": {
+        "not_evaluable": 8
+      }
+    },
+    "unimplemented_scope_probe": {
+      "n": 4,
+      "matched": 0,
+      "predictions": {
+        "within_scope": 4
+      }
+    },
+    "valid_control": {
+      "n": 24,
+      "matched": 24,
+      "predictions": {
+        "within_scope": 24
+      }
+    }
+  },
+  "affine_prediction_sets_identical": 4,
+  "sampling": "same-developer synthetic structured-evidence fixtures; no independent sample accuracy",
+  "engine_modified_after_freeze": false,
+  "issue": "missing-field short circuit can mask known contradictions; two scope predicates absent"
+}
+{
+  "v1_frozen_challenges": {
+    "cases": 60,
+    "groups": {
+      "implemented_fault": {
+        "n": 16,
+        "matched": 16,
+        "predictions": {
+          "contradicted": 16
+        }
+      },
+      "missing_evidence": {
+        "n": 8,
+        "matched": 8,
+        "predictions": {
+          "not_evaluable": 8
+        }
+      },
+      "mixed_fault_missing": {
+        "n": 8,
+        "matched": 0,
+        "predictions": {
+          "not_evaluable": 8
+        }
+      },
+      "unimplemented_scope_probe": {
+        "n": 4,
+        "matched": 0,
+        "predictions": {
+          "within_scope": 4
+        }
+      },
+      "valid_control": {
+        "n": 24,
+        "matched": 24,
+        "predictions": {
+          "within_scope": 24
+        }
+      }
+    },
+    "affine_prediction_sets_identical": 4,
+    "sampling": "same-developer synthetic structured-evidence fixtures; no independent sample accuracy",
+    "engine_modified_after_freeze": false,
+    "issue": "missing-field short circuit can mask known contradictions; two scope predicates absent"
+  },
+  "v2_development_replay": {
+    "implemented_fault": {
+      "n": 16,
+      "v2_statuses": {
+        "contradicted": 16
+      }
+    },
+    "missing_evidence": {
+      "n": 8,
+      "v2_statuses": {
+        "not_evaluable": 8
+      }
+    },
+    "mixed_fault_missing": {
+      "n": 8,
+      "v2_statuses": {
+        "contradicted": 8
+      }
+    },
+    "unimplemented_scope_probe": {
+      "n": 4,
+      "v2_statuses": {
+        "not_evaluable": 4
+      }
+    },
+    "valid_control": {
+      "n": 24,
+      "v2_statuses": {
+        "not_evaluable": 4,
+        "within_scope": 20
+      }
+    }
+  },
+  "known_mixed_contradictions_retained": 8,
+  "unsupported_scope_probes_deferred": 4,
+  "deployment_controls_now_deferred": 4,
+  "public_reports": 10,
+  "public_fields": 60,
+  "public_field_counts": {
+    "metric": {
+      "partial": 1,
+      "explicit": 9
+    },
+    "calibration": {
+      "unresolved": 1,
+      "explicit": 7,
+      "partial": 1,
+      "not_applicable": 1
+    },
+    "temporal": {
+      "explicit": 10
+    },
+    "replication": {
+      "explicit": 6,
+      "partial": 3,
+      "not_applicable": 1
+    },
+    "artifact_pointer": {
+      "explicit": 8,
+      "unresolved": 2
+    },
+    "utility": {
+      "not_applicable": 10
+    }
+  },
+  "public_check_scope": "stored extraction consistency; contextual PDF checks recorded in research stage, not independently repeated here",
+  "new_independent_validation": false,
+  "human_verification": "pending"
+}
+...................................
+----------------------------------------------------------------------
+Ran 35 tests in 0.287s
+
+OK
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+............................................................
+----------------------------------------------------------------------
+Ran 60 tests in 1.516s
+
+OK
+Public score-level analysis and tests completed.

@@ -1,0 +1,15 @@
+{
+ "run_id": "timesnet_official_machine-1-1_seed2024",
+ "entity": "machine-1-1",
+ "seed": 2024,
+ "n_test_points": 28479,
+ "n_test_anomaly": 2694,
+ "threshold": 0.9828710281848907,
+ "val_f1_at_threshold": 0.6821705426356589,
+ "P": 0.42660245765526406,
+ "R": 0.9536005939123979,
+ "F1": 0.5894905920146857,
+ "wall_time_s": 23.0,
+ "val_points": 5696,
+ "val_injected_anomaly_rate": 0.05108848314606742
+}

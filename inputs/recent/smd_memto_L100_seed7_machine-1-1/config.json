@@ -1,0 +1,30 @@
+{
+  "run_id": "smd_memto_L100_seed7_machine-1-1",
+  "dataset": "smd",
+  "model": "memto",
+  "seed": 7,
+  "machine": "machine-1-1",
+  "win_len": 100,
+  "stride": 1,
+  "epochs": 25,
+  "patience": 5,
+  "batch_size": 128,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "mask_ratio": 0.2,
+  "train_anomaly_ratio": 0.05,
+  "max_train_windows": 6000,
+  "device": "cuda",
+  "model_kwargs": {
+    "d_model": 128,
+    "d_ff": 128,
+    "n_heads": 8,
+    "n_layers": 3,
+    "n_memory": 10,
+    "entropy_weight": 0.01,
+    "temperature": 0.1
+  },
+  "implementation": "recent_official_mechanisms_v1",
+  "code_fingerprint": "d8fe3bfdc4dcd6a7",
+  "timestamp": "2026-11-06T10:40:51"
+}

@@ -1,0 +1,20 @@
+{
+  "main.tex": {
+    "numeric_tokens": true,
+    "citations": true,
+    "cross_references": true,
+    "inline_math": true,
+    "equations": true,
+    "formal_statements": true,
+    "preamble_unchanged": true
+  },
+  "supplement.tex": {
+    "numeric_tokens": true,
+    "citations": true,
+    "cross_references": true,
+    "inline_math": true,
+    "equations": true,
+    "formal_statements": true,
+    "preamble_unchanged": true
+  }
+}

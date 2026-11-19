@@ -1,0 +1,81 @@
+{
+  "heldout_timesnet_runs": 10,
+  "summary": [
+    {
+      "unit": "machine-1-1",
+      "policy": "normal_005",
+      "n": 5,
+      "f1_mean": 0.7170235616803692,
+      "f1_sd": 0.01143989153641425,
+      "auc_mean": 0.968601350410762,
+      "fpr_mean": 0.040907504363001744
+    },
+    {
+      "unit": "machine-1-1",
+      "policy": "normal_010",
+      "n": 5,
+      "f1_mean": 0.6771159175301392,
+      "f1_sd": 0.0069846471846641105,
+      "auc_mean": 0.968601350410762,
+      "fpr_mean": 0.07654838084157456
+    },
+    {
+      "unit": "machine-1-1",
+      "policy": "normal_050",
+      "n": 5,
+      "f1_mean": 0.5120060515707706,
+      "f1_sd": 0.003961264936122061,
+      "auc_mean": 0.968601350410762,
+      "fpr_mean": 0.19379484196238125
+    },
+    {
+      "unit": "machine-1-1",
+      "policy": "val_f1",
+      "n": 5,
+      "f1_mean": 0.6992256829810305,
+      "f1_sd": 0.019012253245791116,
+      "auc_mean": 0.968601350410762,
+      "fpr_mean": 0.05829745976342835
+    },
+    {
+      "unit": "machine-3-1",
+      "policy": "normal_005",
+      "n": 5,
+      "f1_mean": 0.41080296203635747,
+      "f1_sd": 0.010266338612569143,
+      "auc_mean": 0.9885007163166504,
+      "fpr_mean": 0.02576782192166808
+    },
+    {
+      "unit": "machine-3-1",
+      "policy": "normal_010",
+      "n": 5,
+      "f1_mean": 0.3556575144976123,
+      "f1_sd": 0.010126546946974534,
+      "auc_mean": 0.9885007163166504,
+      "fpr_mean": 0.03632713440405748
+    },
+    {
+      "unit": "machine-3-1",
+      "policy": "normal_050",
+      "n": 5,
+      "f1_mean": 0.13208411976717005,
+      "f1_sd": 0.009108712420760275,
+      "auc_mean": 0.9885007163166504,
+      "fpr_mean": 0.14290645252183715
+    },
+    {
+      "unit": "machine-3-1",
+      "policy": "val_f1",
+      "n": 5,
+      "f1_mean": 0.3610448517283921,
+      "f1_sd": 0.04047302991066504,
+      "auc_mean": 0.9885007163166504,
+      "fpr_mean": 0.035672020287404904
+    }
+  ],
+  "max_saved_rounded_f1_error": 4.711246281985382e-09,
+  "saved_budget_exact_k_failures": 10,
+  "model_execution": false,
+  "proof_scope": "exported_arrays_and_supplied_source_not_independent_retraining"
+}

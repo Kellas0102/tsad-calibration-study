@@ -1,0 +1,15 @@
+{
+ "run_id": "timesnet_official_machine-1-1_seed123",
+ "entity": "machine-1-1",
+ "seed": 123,
+ "n_test_points": 28479,
+ "n_test_anomaly": 2694,
+ "threshold": 0.8165080589056015,
+ "val_f1_at_threshold": 0.6485013623978202,
+ "P": 0.378535170413343,
+ "R": 0.9688195991091314,
+ "F1": 0.5443737616018355,
+ "wall_time_s": 22.9,
+ "val_points": 5696,
+ "val_injected_anomaly_rate": 0.051615168539325844
+}

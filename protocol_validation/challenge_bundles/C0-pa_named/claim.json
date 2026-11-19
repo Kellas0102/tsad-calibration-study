@@ -1,0 +1,6 @@
+{
+  "target": "pipeline",
+  "strict": false,
+  "causal_online": false,
+  "scope": "descriptive on these supplied arrays"
+}

@@ -1,0 +1,15 @@
+{
+ "run_id": "timesnet_heldout_machine-1-1_seed123",
+ "entity": "machine-1-1",
+ "seed": 123,
+ "n_test_points": 28479,
+ "coverage_min": 1,
+ "coverage_max": 100,
+ "thr_f1": 0.39298751443624497,
+ "thr_f1_value_on_val": 0.81680672,
+ "f1_test": 0.69189189,
+ "f1_test_budget_strategy": 0.69987923,
+ "epochs_run": 10,
+ "best_val_recon": 0.06298063,
+ "scores_finite": true
+}

@@ -1,0 +1,129 @@
+{
+ "run_id": "timesnet_heldout_machine-1-1_seed2026",
+ "group": "heldout",
+ "model": "TimesNet",
+ "entity": "machine-1-1",
+ "seed": 2026,
+ "official_repo": "thuml/Time-Series-Library",
+ "official_commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+ "split": {
+  "entity": "machine-1-1",
+  "window": 100,
+  "raw_train_points": 28479,
+  "split_index_i80": 22783,
+  "train_segment": [
+   0,
+   22783
+  ],
+  "val_segment": [
+   22783,
+   28479
+  ],
+  "train_points": 22783,
+  "val_points": 5696,
+  "test_points": 28479,
+  "test_anomaly_rate": 0.094596,
+  "train_window_range": [
+   0,
+   22683
+  ],
+  "val_window_range": [
+   22783,
+   28379
+  ],
+  "n_train_windows": 22684,
+  "n_val_windows": 5597,
+  "n_test_windows": 28380,
+  "scaler_fit_range": [
+   0,
+   22783
+  ],
+  "disjointness": {
+   "train_val_overlap": 0,
+   "train_test_overlap": 0,
+   "val_test_overlap": 0,
+   "max_train_index": 22782,
+   "min_val_index": 22783
+  }
+ },
+ "scaler": {
+  "fit_on": "raw_train[0:i80)",
+  "n_fit_points": 22783
+ },
+ "model_args": {
+  "task_name": "anomaly_detection",
+  "seq_len": 100,
+  "label_len": 0,
+  "pred_len": 0,
+  "d_model": 64,
+  "d_ff": 64,
+  "e_layers": 2,
+  "top_k": 5,
+  "num_kernels": 6,
+  "enc_in": 38,
+  "dec_in": 38,
+  "c_out": 38,
+  "factor": 1,
+  "dropout": 0.1,
+  "embed": "timeF",
+  "freq": "h",
+  "output_attention": false,
+  "features": "M",
+  "learning_rate": 0.0001,
+  "train_epochs": 10,
+  "patience": 3,
+  "lradj": "type1"
+ },
+ "training": {
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "epochs_requested": 10,
+  "epochs_run": 10,
+  "patience": 3,
+  "batch": 128,
+  "criterion": "MSELoss",
+  "lr_schedule": "type1 halving",
+  "checkpoint": "best val recon loss"
+ },
+ "thresholds": {
+  "exact_f1max_highest_ge": {
+   "threshold": 0.34762434840202333,
+   "f1": 0.8045977011494253,
+   "tp": 245,
+   "fp": 61,
+   "fn": 58,
+   "comparison": ">=",
+   "n_scored": 5696
+  },
+  "order_stat_budget_gt": {
+   "threshold": 0.40039660573005675,
+   "budget": 0.05,
+   "k": 285,
+   "comparison": ">",
+   "n_scored": 5696
+  }
+ },
+ "test_metrics": {
+  "f1_exact_f1max_thr": 0.68211253,
+  "f1_order_stat_budget_thr": 0.70042579,
+  "pa_applied": false
+ },
+ "divergences": [
+  "D1 split 80/20",
+  "D2 scaler on 80% only",
+  "D3 no test access during training",
+  "D4 val labels fixed (normal zeros; injected separate)",
+  "D5 thresholds from injected validation only",
+  "D6 stride-1 point scores with coverage, no truncation"
+ ],
+ "compat_patches": [
+  "models imported directly (no registry/CWD dependence)"
+ ],
+ "data_hashes": {
+  "train_part.npy": "64e2f0092f6dc1676007dc8516a6859a69b15de6beef02ec75efd1afdebeff45",
+  "val_part.npy": "d128e37b69d2a7f5ac22877d9be127d301ac907ae8a5ed5e91b65d2fd79b4677",
+  "test.npy": "4d7134c92768ec773dd4faea9df9a86ec9a391cafd6a11b63adb36038d63028b",
+  "test_label.npy": "79ea99204b1ee7b4e312d0f8333580618b4b19dfe4653486f98f3ecd3794e4e3"
+ },
+ "wall_time_s": 618.7
+}

@@ -1,0 +1,13 @@
+{
+  "model": "transformer",
+  "dataset": "hai",
+  "seed": 2026,
+  "win_len": 100,
+  "lr": 0.001,
+  "epochs": 25,
+  "patience": 5,
+  "max_train_windows": 6000,
+  "train_anomaly_ratio": 0.05,
+  "data_dir": "D:\\hai_raw",
+  "note": "HAI 23.05，4 段训练拼接 + 2 段测试拼接"
+}

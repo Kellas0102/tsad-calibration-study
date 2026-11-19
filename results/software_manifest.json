@@ -1,0 +1,11 @@
+{
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "matplotlib": "3.9.4",
+  "pypdf": "6.19.0",
+  "affiliation_repository": "https://github.com/ahstat/affiliation-metrics-py",
+  "affiliation_commit": "8d8449858096bbade6a6e70848d05c9cc9b846fe",
+  "analysis_kind": "retrospective score-only reanalysis",
+  "new_detector_training": false,
+  "global_dependency_installation": false
+}

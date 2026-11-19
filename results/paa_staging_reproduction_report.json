@@ -1,0 +1,17 @@
+{
+  "scope": "local staging tree, same installed Python environment; not remote or fresh-venv execution",
+  "numeric_entry_point_exit_code": 0,
+  "test_summaries": [
+    "Ran 35 tests in 0.277s",
+    "Ran 3 tests in 0.001s",
+    "Ran 60 tests in 1.489s"
+  ],
+  "legacy_reversals": 87,
+  "legacy_margin_001": 44,
+  "normal_only_margin_001": 18,
+  "recent_margin_001": 1,
+  "numeric_artifacts_identical": 11,
+  "manifest_files": 2015,
+  "upload_performed": false,
+  "publication_authorized": false
+}

@@ -1,0 +1,12 @@
+{
+  "local_consistency": "passed",
+  "challenge_cases": 60,
+  "public_reports": 10,
+  "field_records": 60,
+  "known_mixed_fault_misses_retained": 8,
+  "known_scope_false_safe_outputs_retained": 4,
+  "human_validation_performed": false,
+  "full_paper_redistribution_authorized": false,
+  "source_quote_checks": "normalized source-page matches, not verification of every contextual interpretation",
+  "manuscript_integration": "proposed text only; previous candidate untouched"
+}

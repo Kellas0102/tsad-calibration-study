@@ -1,0 +1,252 @@
+{
+ "n_runs": 30,
+ "reproduction_check": {
+  "matched_metrics_json": 30,
+  "mismatched": 0,
+  "tolerance": 0.0005
+ },
+ "aggregate_S1": {
+  "L_loader": {
+   "n": 30,
+   "F1_mean": 0.40517,
+   "event_F1_d0_mean": 0.40517,
+   "event_F1_d10_mean": 0.601866,
+   "affiliation_F1_mean": 0.145051
+  },
+  "L_correct": {
+   "n": 30,
+   "F1_mean": 0.404019,
+   "event_F1_d0_mean": 0.404019,
+   "event_F1_d10_mean": 0.59961,
+   "affiliation_F1_mean": 0.145453
+  }
+ },
+ "per_run_delta_S1": [
+  {
+   "run_id": "hai_autoencoder_L100_seed123",
+   "d_point_F1": -0.000494,
+   "d_event_F1_d0": -0.000494,
+   "d_event_F1_d10": -0.002489,
+   "d_affiliation": 0.005471
+  },
+  {
+   "run_id": "hai_autoencoder_L100_seed2024",
+   "d_point_F1": -0.000947,
+   "d_event_F1_d0": -0.000947,
+   "d_event_F1_d10": -0.001916,
+   "d_affiliation": -0.002999
+  },
+  {
+   "run_id": "hai_autoencoder_L100_seed2026",
+   "d_point_F1": -0.000937,
+   "d_event_F1_d0": -0.000937,
+   "d_event_F1_d10": -0.002285,
+   "d_affiliation": 0.001753
+  },
+  {
+   "run_id": "hai_autoencoder_L100_seed42",
+   "d_point_F1": -0.000934,
+   "d_event_F1_d0": -0.000934,
+   "d_event_F1_d10": -0.002242,
+   "d_affiliation": 0.001808
+  },
+  {
+   "run_id": "hai_autoencoder_L100_seed7",
+   "d_point_F1": -0.000906,
+   "d_event_F1_d0": -0.000906,
+   "d_event_F1_d10": -0.002178,
+   "d_affiliation": 0.001825
+  },
+  {
+   "run_id": "hai_cnn-lstm_L100_seed123",
+   "d_point_F1": -0.000515,
+   "d_event_F1_d0": -0.000515,
+   "d_event_F1_d10": -0.002573,
+   "d_affiliation": 0.003761
+  },
+  {
+   "run_id": "hai_cnn-lstm_L100_seed2024",
+   "d_point_F1": -0.001313,
+   "d_event_F1_d0": -0.001313,
+   "d_event_F1_d10": -0.002436,
+   "d_affiliation": -0.00071
+  },
+  {
+   "run_id": "hai_cnn-lstm_L100_seed2026",
+   "d_point_F1": -0.000521,
+   "d_event_F1_d0": -0.000521,
+   "d_event_F1_d10": -0.002295,
+   "d_affiliation": 0.003485
+  },
+  {
+   "run_id": "hai_cnn-lstm_L100_seed42",
+   "d_point_F1": -0.000968,
+   "d_event_F1_d0": -0.000968,
+   "d_event_F1_d10": -0.002332,
+   "d_affiliation": 0.001317
+  },
+  {
+   "run_id": "hai_cnn-lstm_L100_seed7",
+   "d_point_F1": -0.000513,
+   "d_event_F1_d0": -0.000513,
+   "d_event_F1_d10": -0.002224,
+   "d_affiliation": 0.005182
+  },
+  {
+   "run_id": "hai_gru_L100_seed123",
+   "d_point_F1": -0.001362,
+   "d_event_F1_d0": -0.001362,
+   "d_event_F1_d10": -0.00231,
+   "d_affiliation": -0.000172
+  },
+  {
+   "run_id": "hai_gru_L100_seed2024",
+   "d_point_F1": -0.00196,
+   "d_event_F1_d0": -0.00196,
+   "d_event_F1_d10": -0.002688,
+   "d_affiliation": -0.005235
+  },
+  {
+   "run_id": "hai_gru_L100_seed2026",
+   "d_point_F1": -0.001252,
+   "d_event_F1_d0": -0.001252,
+   "d_event_F1_d10": -0.002757,
+   "d_affiliation": 0.000444
+  },
+  {
+   "run_id": "hai_gru_L100_seed42",
+   "d_point_F1": -0.001379,
+   "d_event_F1_d0": -0.001379,
+   "d_event_F1_d10": -0.002391,
+   "d_affiliation": -0.000333
+  },
+  {
+   "run_id": "hai_gru_L100_seed7",
+   "d_point_F1": -0.001342,
+   "d_event_F1_d0": -0.001342,
+   "d_event_F1_d10": -0.00224,
+   "d_affiliation": -0.000333
+  },
+  {
+   "run_id": "hai_lstm_L100_seed123",
+   "d_point_F1": -0.000518,
+   "d_event_F1_d0": -0.000518,
+   "d_event_F1_d10": -0.002903,
+   "d_affiliation": 0.005131
+  },
+  {
+   "run_id": "hai_lstm_L100_seed2024",
+   "d_point_F1": -0.001764,
+   "d_event_F1_d0": -0.001764,
+   "d_event_F1_d10": -0.002265,
+   "d_affiliation": -0.00688
+  },
+  {
+   "run_id": "hai_lstm_L100_seed2026",
+   "d_point_F1": -0.001755,
+   "d_event_F1_d0": -0.001755,
+   "d_event_F1_d10": -0.002844,
+   "d_affiliation": -0.003879
+  },
+  {
+   "run_id": "hai_lstm_L100_seed42",
+   "d_point_F1": -0.001414,
+   "d_event_F1_d0": -0.001414,
+   "d_event_F1_d10": -0.002784,
+   "d_affiliation": 0.000296
+  },
+  {
+   "run_id": "hai_lstm_L100_seed7",
+   "d_point_F1": -0.000531,
+   "d_event_F1_d0": -0.000531,
+   "d_event_F1_d10": -0.002746,
+   "d_affiliation": 0.005369
+  },
+  {
+   "run_id": "hai_ours_L100_seed123",
+   "d_point_F1": -0.001017,
+   "d_event_F1_d0": -0.001017,
+   "d_event_F1_d10": -0.001674,
+   "d_affiliation": 0.002925
+  },
+  {
+   "run_id": "hai_ours_L100_seed2024",
+   "d_point_F1": -0.001022,
+   "d_event_F1_d0": -0.001022,
+   "d_event_F1_d10": -0.001671,
+   "d_affiliation": -0.001009
+  },
+  {
+   "run_id": "hai_ours_L100_seed2026",
+   "d_point_F1": -0.000843,
+   "d_event_F1_d0": -0.000843,
+   "d_event_F1_d10": -0.002839,
+   "d_affiliation": 0.003954
+  },
+  {
+   "run_id": "hai_ours_L100_seed42",
+   "d_point_F1": -0.000979,
+   "d_event_F1_d0": -0.000979,
+   "d_event_F1_d10": -0.002205,
+   "d_affiliation": 0.004035
+  },
+  {
+   "run_id": "hai_ours_L100_seed7",
+   "d_point_F1": -0.001027,
+   "d_event_F1_d0": -0.001027,
+   "d_event_F1_d10": -0.001695,
+   "d_affiliation": 0.002301
+  },
+  {
+   "run_id": "hai_transformer_L100_seed123",
+   "d_point_F1": -0.001466,
+   "d_event_F1_d0": -0.001466,
+   "d_event_F1_d10": -0.001754,
+   "d_affiliation": -0.000941
+  },
+  {
+   "run_id": "hai_transformer_L100_seed2024",
+   "d_point_F1": -0.001697,
+   "d_event_F1_d0": -0.001697,
+   "d_event_F1_d10": -0.001371,
+   "d_affiliation": -0.004492
+  },
+  {
+   "run_id": "hai_transformer_L100_seed2026",
+   "d_point_F1": -0.00139,
+   "d_event_F1_d0": -0.00139,
+   "d_event_F1_d10": -0.001807,
+   "d_affiliation": -0.000237
+  },
+  {
+   "run_id": "hai_transformer_L100_seed42",
+   "d_point_F1": -0.001921,
+   "d_event_F1_d0": -0.001921,
+   "d_event_F1_d10": -0.001989,
+   "d_affiliation": -0.003278
+  },
+  {
+   "run_id": "hai_transformer_L100_seed7",
+   "d_point_F1": -0.001846,
+   "d_event_F1_d0": -0.001846,
+   "d_event_F1_d10": -0.001768,
+   "d_affiliation": -0.006499
+  }
+ ],
+ "sign_check_S1": {
+  "point_up": 0,
+  "point_down": 30,
+  "event_down": 30,
+  "event_up": 0,
+  "note": "S1 is the frozen threshold actually used in the paper"
+ },
+ "not_computed": [
+  "channel attribution (par-channel error not stored)"
+ ],
+ "four_strategies": [
+  "S1_val_f1_max",
+  "S2_val_fpr5",
+  "S3_val_quantile_0.995",
+  "S4_test_oracle (upper bound)"
+ ]
+}

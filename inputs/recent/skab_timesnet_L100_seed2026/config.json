@@ -1,0 +1,27 @@
+{
+  "run_id": "skab_timesnet_L100_seed2026",
+  "dataset": "skab",
+  "model": "timesnet",
+  "seed": 2026,
+  "machine": "",
+  "win_len": 100,
+  "stride": 1,
+  "epochs": 25,
+  "patience": 5,
+  "batch_size": 128,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "mask_ratio": 0.2,
+  "train_anomaly_ratio": 0.05,
+  "max_train_windows": 6000,
+  "device": "cuda",
+  "model_kwargs": {
+    "d_model": 64,
+    "d_ff": 64,
+    "n_layers": 2,
+    "top_k": 3
+  },
+  "implementation": "recent_official_mechanisms_v1",
+  "code_fingerprint": "d8fe3bfdc4dcd6a7",
+  "timestamp": "2026-11-06T11:05:52"
+}

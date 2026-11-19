@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-12",
+  "development_visibility": "same assistant; not blinded or externally held out",
+  "files": [
+    {
+      "source": "/Users/kellas/Documents/\u9ed8\u8ba4\u9879\u76ee/DMKD_revision_20261112/code/diagnostics.py",
+      "frozen": "frozen_engine/diagnostics.py",
+      "sha256": "9a70b3ee493da6743a4a17bd6c4324a6758b1e210fc912a608f7977b5c36ed6e"
+    },
+    {
+      "source": "/Users/kellas/Documents/\u9ed8\u8ba4\u9879\u76ee/DMKD_revision_20261112/code/diagnose_claim.py",
+      "frozen": "frozen_engine/diagnose_claim.py",
+      "sha256": "47cf35b7ef51f8747cfd6f7cd95bd468fc64ff673de94661ca7fe070f8c50eeb"
+    },
+    {
+      "source": "/Users/kellas/Documents/\u9ed8\u8ba4\u9879\u76ee/DMKD_revision_20261112/code/test_diagnostics.py",
+      "frozen": "frozen_engine/test_diagnostics.py",
+      "sha256": "e3e009b795b3256fec06b648f1cb50948d043603cca9b83426199678e7b9a7dc"
+    },
+    {
+      "source": "/Users/kellas/Documents/\u9ed8\u8ba4\u9879\u76ee/DMKD_revision_20261112/code/test_evidence_workflow.py",
+      "frozen": "frozen_engine/test_evidence_workflow.py",
+      "sha256": "9c039cca01ca4dbebea6e97e7c063b6cf2cfdf524c1297c1f24f60433e525b09"
+    },
+    {
+      "source": "/Users/kellas/Documents/\u9ed8\u8ba4\u9879\u76ee/DMKD_revision_20261112/examples/archived_pipeline_claim.json",
+      "frozen": "frozen_engine/archived_pipeline_claim.json",
+      "sha256": "323c357111a319f00cad3bd8ed7ca3d61af9ac8f55f45fc08282298b81211b34"
+    },
+    {
+      "source": "/Users/kellas/Documents/\u9ed8\u8ba4\u9879\u76ee/DMKD_revision_20261112/examples/deployment_promotion.json",
+      "frozen": "frozen_engine/deployment_promotion.json",
+      "sha256": "9953853ac3537c1a0208f276abf22251286d5b3adc4c157bd3a33bc01e4ae149"
+    }
+  ]
+}

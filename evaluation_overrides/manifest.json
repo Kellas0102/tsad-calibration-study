@@ -1,0 +1,29 @@
+{
+  "purpose": "separate_evaluation_corrections_not_replacement_of_original_snapshots",
+  "files": [
+    {
+      "path": "evaluation_overrides/P0_REPORT.md",
+      "sha256": "72d5de13459241a98afe960337a27153168ddc924e4e7af2263e0b0c412f3b3a"
+    },
+    {
+      "path": "evaluation_overrides/labels_correct_60000.npy",
+      "sha256": "99629a12c1716383c917e3ed6007948fc1b7771313802ad1963b0bd08eff03ad"
+    },
+    {
+      "path": "evaluation_overrides/labels_loader_60000.npy",
+      "sha256": "a2666b002b364534601f36e50d7b85168a4a0db05c7e5122d3fac716e272b124"
+    },
+    {
+      "path": "evaluation_overrides/p0_label_audit.json",
+      "sha256": "16c28f1464b4a5a341b061dc6a565fb24fa7ac84628166213068b13d087e4e44"
+    },
+    {
+      "path": "evaluation_overrides/skab_boundary_evidence.json",
+      "sha256": "aa21a25c8afbfbf7148971c5acd01adc403c07d32708bb4f50b6dec569453d7c"
+    },
+    {
+      "path": "evaluation_overrides/skab_reconstructed_labels.npy",
+      "sha256": "c333983e1d64908084d301ddf92acb119d1ddc8ca440767f05324d0d7e3870b1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "main.tex": {
+    "preserved": {
+      "numbers": true,
+      "math": true,
+      "equations": true,
+      "citations": true,
+      "references": true
+    },
+    "before": {
+      "colons_including_titles_and_declarations": 30,
+      "em_dashes": 0
+    },
+    "after": {
+      "colons_including_titles_and_declarations": 23,
+      "em_dashes": 0
+    }
+  },
+  "supplement.tex": {
+    "preserved": {
+      "numbers": true,
+      "math": true,
+      "equations": true,
+      "citations": true,
+      "references": true
+    },
+    "before": {
+      "colons_including_titles_and_declarations": 16,
+      "em_dashes": 0
+    },
+    "after": {
+      "colons_including_titles_and_declarations": 14,
+      "em_dashes": 0
+    }
+  }
+}

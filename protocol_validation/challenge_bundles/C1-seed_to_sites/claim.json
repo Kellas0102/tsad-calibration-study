@@ -1,0 +1,6 @@
+{
+  "target": "generalization",
+  "strict": true,
+  "causal_online": false,
+  "scope": "across_sites"
+}

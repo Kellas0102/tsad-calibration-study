@@ -1,0 +1,160 @@
+{
+  "policy_family": [
+    {
+      "panel": "legacy",
+      "family": "all_four",
+      "K": 4,
+      "reference_margin": 0.0,
+      "model_pair_units": 180,
+      "reversals": 87,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "legacy",
+      "family": "all_four",
+      "K": 4,
+      "reference_margin": 0.005,
+      "model_pair_units": 180,
+      "reversals": 58,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "legacy",
+      "family": "all_four",
+      "K": 4,
+      "reference_margin": 0.01,
+      "model_pair_units": 180,
+      "reversals": 44,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "legacy",
+      "family": "all_four",
+      "K": 4,
+      "reference_margin": 0.02,
+      "model_pair_units": 180,
+      "reversals": 29,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "legacy",
+      "family": "normal_only",
+      "K": 3,
+      "reference_margin": 0.0,
+      "model_pair_units": 180,
+      "reversals": 53,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "legacy",
+      "family": "normal_only",
+      "K": 3,
+      "reference_margin": 0.005,
+      "model_pair_units": 180,
+      "reversals": 26,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "legacy",
+      "family": "normal_only",
+      "K": 3,
+      "reference_margin": 0.01,
+      "model_pair_units": 180,
+      "reversals": 18,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "legacy",
+      "family": "normal_only",
+      "K": 3,
+      "reference_margin": 0.02,
+      "model_pair_units": 180,
+      "reversals": 11,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "recent",
+      "family": "all_four",
+      "K": 4,
+      "reference_margin": 0.0,
+      "model_pair_units": 6,
+      "reversals": 1,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "recent",
+      "family": "all_four",
+      "K": 4,
+      "reference_margin": 0.005,
+      "model_pair_units": 6,
+      "reversals": 1,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "recent",
+      "family": "all_four",
+      "K": 4,
+      "reference_margin": 0.01,
+      "model_pair_units": 6,
+      "reversals": 1,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "recent",
+      "family": "all_four",
+      "K": 4,
+      "reference_margin": 0.02,
+      "model_pair_units": 6,
+      "reversals": 0,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "recent",
+      "family": "normal_only",
+      "K": 3,
+      "reference_margin": 0.0,
+      "model_pair_units": 6,
+      "reversals": 1,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "recent",
+      "family": "normal_only",
+      "K": 3,
+      "reference_margin": 0.005,
+      "model_pair_units": 6,
+      "reversals": 1,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "recent",
+      "family": "normal_only",
+      "K": 3,
+      "reference_margin": 0.01,
+      "model_pair_units": 6,
+      "reversals": 1,
+      "status": "post_hoc_descriptive_sensitivity"
+    },
+    {
+      "panel": "recent",
+      "family": "normal_only",
+      "K": 3,
+      "reference_margin": 0.02,
+      "model_pair_units": 6,
+      "reversals": 0,
+      "status": "post_hoc_descriptive_sensitivity"
+    }
+  ],
+  "hai_original_runs": 30,
+  "hai_run_policy_width_records": 720,
+  "gap_widths": [
+    0,
+    1,
+    5,
+    10,
+    30,
+    60
+  ],
+  "new_training_runs": 0,
+  "status": "post_hoc_sensitivity_not_deployment_validation"
+}

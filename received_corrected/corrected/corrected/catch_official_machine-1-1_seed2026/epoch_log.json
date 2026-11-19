@@ -1,0 +1,23 @@
+[
+ {
+  "epoch": 1,
+  "train_rec": 0.20480125,
+  "val_rec": 0.20756175,
+  "mask_step": 17,
+  "n_batches": 178
+ },
+ {
+  "epoch": 2,
+  "train_rec": 0.06311994,
+  "val_rec": 0.01666161,
+  "mask_step": 17,
+  "n_batches": 178
+ },
+ {
+  "epoch": 3,
+  "train_rec": 0.0246955,
+  "val_rec": 0.0129589,
+  "mask_step": 17,
+  "n_batches": 178
+ }
+]

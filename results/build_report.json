@@ -1,0 +1,18 @@
+[
+  {
+    "document": "main",
+    "errors": [],
+    "undefined": [],
+    "overfull": [],
+    "pages": 25,
+    "pdf": "manuscript/main.pdf"
+  },
+  {
+    "document": "supplement",
+    "errors": [],
+    "undefined": [],
+    "overfull": [],
+    "pages": 20,
+    "pdf": "manuscript/supplement.pdf"
+  }
+]

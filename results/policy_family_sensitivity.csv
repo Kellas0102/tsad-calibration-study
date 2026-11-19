@@ -1,0 +1,17 @@
+panel,family,K,reference_margin,model_pair_units,reversals,status
+legacy,all_four,4,0.0,180,87,post_hoc_descriptive_sensitivity
+legacy,all_four,4,0.005,180,58,post_hoc_descriptive_sensitivity
+legacy,all_four,4,0.01,180,44,post_hoc_descriptive_sensitivity
+legacy,all_four,4,0.02,180,29,post_hoc_descriptive_sensitivity
+legacy,normal_only,3,0.0,180,53,post_hoc_descriptive_sensitivity
+legacy,normal_only,3,0.005,180,26,post_hoc_descriptive_sensitivity
+legacy,normal_only,3,0.01,180,18,post_hoc_descriptive_sensitivity
+legacy,normal_only,3,0.02,180,11,post_hoc_descriptive_sensitivity
+recent,all_four,4,0.0,6,1,post_hoc_descriptive_sensitivity
+recent,all_four,4,0.005,6,1,post_hoc_descriptive_sensitivity
+recent,all_four,4,0.01,6,1,post_hoc_descriptive_sensitivity
+recent,all_four,4,0.02,6,0,post_hoc_descriptive_sensitivity
+recent,normal_only,3,0.0,6,1,post_hoc_descriptive_sensitivity
+recent,normal_only,3,0.005,6,1,post_hoc_descriptive_sensitivity
+recent,normal_only,3,0.01,6,1,post_hoc_descriptive_sensitivity
+recent,normal_only,3,0.02,6,0,post_hoc_descriptive_sensitivity

@@ -1,0 +1,14 @@
+{
+  "archive_checksum_entries_verified": 76,
+  "score_runs": 20,
+  "coverage_arrays_verified": 180,
+  "policy_rng_records": 240,
+  "memto_test_matrices_reaggregated": 10,
+  "catch_rng_f1_sd_min": 4.4618203564934114e-05,
+  "catch_rng_f1_sd_max": 0.0011061883590360985,
+  "catch_rng_f1_max_range": 0.0026364274468120286,
+  "max_saved_f1_error": 4.997163932651816e-09,
+  "model_execution": false,
+  "replay_scope": "rng0 test replay reported by runner; replay vectors absent",
+  "acceptance": "score-level consistency accepted; model-specific training/state limitations retained"
+}

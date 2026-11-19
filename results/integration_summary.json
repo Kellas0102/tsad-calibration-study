@@ -1,0 +1,12 @@
+{
+  "hai_runs": 30,
+  "hai_label_differences": 32,
+  "hai_policy_scenario_rows": 360,
+  "hai_consolidation_rows": 1440,
+  "hai_allocation_max_error": 2.7755575615628914e-16,
+  "skab_runs_verified": 45,
+  "skab_trials": 34,
+  "timesnet_native_runs": 10,
+  "hai_test2_alignment": "positional_assumption_not_verified_seconds",
+  "new_model_execution": false
+}

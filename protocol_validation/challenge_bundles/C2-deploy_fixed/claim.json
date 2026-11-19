@@ -1,0 +1,6 @@
+{
+  "target": "deployment",
+  "strict": true,
+  "causal_online": true,
+  "scope": "descriptive on these supplied arrays"
+}

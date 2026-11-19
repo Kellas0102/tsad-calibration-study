@@ -1,0 +1,15 @@
+panel,dataset,unit,n_model_pairs,descriptive_sign_reversal_pairs,all_policy_mean_certificates,corrected_sign_stable_pairs
+legacy,hai,hai,15,10,0,0
+legacy,msl,F-7,15,5,0,0
+legacy,msl,M-5,15,5,0,0
+legacy,msl,T-4,15,7,0,0
+legacy,psm,psm,15,9,0,0
+legacy,skab,skab,15,11,0,0
+legacy,smap,E-5,15,6,0,0
+legacy,smap,G-6,15,9,0,0
+legacy,smap,T-1,15,11,0,0
+legacy,smd,machine-1-1,15,4,0,0
+legacy,smd,machine-2-1,15,8,0,0
+legacy,smd,machine-3-1,15,2,0,0
+recent,skab,skab,3,1,0,0
+recent,smd,machine-1-1,3,0,0,0

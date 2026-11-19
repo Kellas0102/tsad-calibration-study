@@ -1,0 +1,482 @@
+[
+  {
+    "case_id": "C0-strict",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Narrow strict score-array claim",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-pa_named",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "PA explicitly named; not claimed strict",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-oracle_offline",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Test oracle explicitly limited to retrospective comparison",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-offline_window",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Future context disclosed for an offline claim",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-deploy_fixed",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Synthetic complete-bundle deployment gate control, not real utility validation",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-monotone",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Exact positive affine score transform with recalibration",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-pa_mislabeled",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "PA represented as strict pointwise F1",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-oracle_deploy",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Test-label selection promoted to deployment threshold",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-future_online",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Future observations contradict causal-online claim",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-artifact_changed",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Actual file bytes disagree with archived expected hash",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-missing_metric",
+    "group": "missing_evidence",
+    "expected": "not_evaluable",
+    "rationale": "Metric/postprocessing record absent",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-missing_calibration",
+    "group": "missing_evidence",
+    "expected": "not_evaluable",
+    "rationale": "Calibration source absent",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-mismatch_plus_missing",
+    "group": "mixed_fault_missing",
+    "expected": "contradicted",
+    "rationale": "Confirmed hash contradiction remains despite missing calibration metadata",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-pa_plus_missing",
+    "group": "mixed_fault_missing",
+    "expected": "contradicted",
+    "rationale": "Known PA/strict contradiction remains despite missing calibration metadata",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-nonsignificant_equivalence",
+    "group": "unimplemented_scope_probe",
+    "expected": "contradicted",
+    "rationale": "p>.05 alone cannot establish equivalence without a margin/test",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C0-seed_to_sites",
+    "group": "unimplemented_scope_probe",
+    "expected": "contradicted",
+    "rationale": "Repeated seeds on one entity cannot substantiate across-site replication",
+    "context": 0,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-strict",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Narrow strict score-array claim",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-pa_named",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "PA explicitly named; not claimed strict",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-oracle_offline",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Test oracle explicitly limited to retrospective comparison",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-offline_window",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Future context disclosed for an offline claim",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-deploy_fixed",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Synthetic complete-bundle deployment gate control, not real utility validation",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-monotone",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Exact positive affine score transform with recalibration",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-pa_mislabeled",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "PA represented as strict pointwise F1",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-oracle_deploy",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Test-label selection promoted to deployment threshold",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-future_online",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Future observations contradict causal-online claim",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-artifact_changed",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Actual file bytes disagree with archived expected hash",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-missing_metric",
+    "group": "missing_evidence",
+    "expected": "not_evaluable",
+    "rationale": "Metric/postprocessing record absent",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-missing_calibration",
+    "group": "missing_evidence",
+    "expected": "not_evaluable",
+    "rationale": "Calibration source absent",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-mismatch_plus_missing",
+    "group": "mixed_fault_missing",
+    "expected": "contradicted",
+    "rationale": "Confirmed hash contradiction remains despite missing calibration metadata",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-pa_plus_missing",
+    "group": "mixed_fault_missing",
+    "expected": "contradicted",
+    "rationale": "Known PA/strict contradiction remains despite missing calibration metadata",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-nonsignificant_equivalence",
+    "group": "unimplemented_scope_probe",
+    "expected": "contradicted",
+    "rationale": "p>.05 alone cannot establish equivalence without a margin/test",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C1-seed_to_sites",
+    "group": "unimplemented_scope_probe",
+    "expected": "contradicted",
+    "rationale": "Repeated seeds on one entity cannot substantiate across-site replication",
+    "context": 1,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-strict",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Narrow strict score-array claim",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-pa_named",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "PA explicitly named; not claimed strict",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-oracle_offline",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Test oracle explicitly limited to retrospective comparison",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-offline_window",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Future context disclosed for an offline claim",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-deploy_fixed",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Synthetic complete-bundle deployment gate control, not real utility validation",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-monotone",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Exact positive affine score transform with recalibration",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-pa_mislabeled",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "PA represented as strict pointwise F1",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-oracle_deploy",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Test-label selection promoted to deployment threshold",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-future_online",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Future observations contradict causal-online claim",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-artifact_changed",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Actual file bytes disagree with archived expected hash",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-missing_metric",
+    "group": "missing_evidence",
+    "expected": "not_evaluable",
+    "rationale": "Metric/postprocessing record absent",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-missing_calibration",
+    "group": "missing_evidence",
+    "expected": "not_evaluable",
+    "rationale": "Calibration source absent",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-mismatch_plus_missing",
+    "group": "mixed_fault_missing",
+    "expected": "contradicted",
+    "rationale": "Confirmed hash contradiction remains despite missing calibration metadata",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C2-pa_plus_missing",
+    "group": "mixed_fault_missing",
+    "expected": "contradicted",
+    "rationale": "Known PA/strict contradiction remains despite missing calibration metadata",
+    "context": 2,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-strict",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Narrow strict score-array claim",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-pa_named",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "PA explicitly named; not claimed strict",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-oracle_offline",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Test oracle explicitly limited to retrospective comparison",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-offline_window",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Future context disclosed for an offline claim",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-deploy_fixed",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Synthetic complete-bundle deployment gate control, not real utility validation",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-monotone",
+    "group": "valid_control",
+    "expected": "within_scope",
+    "rationale": "Exact positive affine score transform with recalibration",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-pa_mislabeled",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "PA represented as strict pointwise F1",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-oracle_deploy",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Test-label selection promoted to deployment threshold",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-future_online",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Future observations contradict causal-online claim",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-artifact_changed",
+    "group": "implemented_fault",
+    "expected": "contradicted",
+    "rationale": "Actual file bytes disagree with archived expected hash",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-missing_metric",
+    "group": "missing_evidence",
+    "expected": "not_evaluable",
+    "rationale": "Metric/postprocessing record absent",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-missing_calibration",
+    "group": "missing_evidence",
+    "expected": "not_evaluable",
+    "rationale": "Calibration source absent",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-mismatch_plus_missing",
+    "group": "mixed_fault_missing",
+    "expected": "contradicted",
+    "rationale": "Confirmed hash contradiction remains despite missing calibration metadata",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  },
+  {
+    "case_id": "C3-pa_plus_missing",
+    "group": "mixed_fault_missing",
+    "expected": "contradicted",
+    "rationale": "Known PA/strict contradiction remains despite missing calibration metadata",
+    "context": 3,
+    "engine_input": "claim/evidence files only; this oracle is separate"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "claim_id": "EX-HAI-DEPLOYMENT-001",
+  "claim": "The higher HAI point-wise F1 is sufficient to conclude that this system will provide better operational fault monitoring at unseen industrial sites.",
+  "target": "deployment",
+  "gates": {
+    "G1": {"status": "within_scope", "evidence": ["inputs/manifest.json", "results/integrity_audit.csv"], "explanation": "The benchmark score artifacts are identified; that does not identify a future deployment distribution."},
+    "G2": {"status": "not_evaluable", "evidence": ["results/model_policy_summary.csv"], "explanation": "A point-F1 improvement does not specify the event, delay, alarm-grouping or cost objective needed for the operational claim."},
+    "G3": {"status": "not_evaluable", "evidence": ["manuscript/main.tex:Temporal and information restrictions"], "explanation": "The raw-data alignment and independent historical data construction still need author verification."},
+    "G4": {"status": "not_evaluable", "explanation": "Causal information availability and a valid online delay convention for the proposed field use have not been supplied."},
+    "G5": {"status": "not_evaluable", "evidence": ["results/per_run_metrics.csv"], "explanation": "Validation-normal budget compliance is known, but no future-site calibration-transfer guarantee has been established."},
+    "G6": {"status": "not_evaluable", "explanation": "Five training seeds on one inherited crop do not constitute a sample of independent industrial sites or future faults."},
+    "G7": {"status": "not_evaluable", "explanation": "No external-site validation or independently checked official-model fidelity is supplied for this promotion."},
+    "G8": {"status": "not_evaluable", "explanation": "Alarm cooldown, event severity, operator workload, incident cost and an operational utility margin have not been specified or evaluated."}
+  }
+}

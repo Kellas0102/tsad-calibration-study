@@ -1,0 +1,64 @@
+{
+  "revision_kind": "integrated_argument_rewrite_no_added_positioning_or_action_tables",
+  "baseline": "DMKD_revision_20261112_protocol",
+  "numeric_artifacts_identical": [
+    {
+      "path": "results/per_run_metrics.csv",
+      "sha256": "f667a102ce30c6f206313243864696cc5ef64571709c4d24f2bb110b557e864a",
+      "identical_to_previous": true
+    },
+    {
+      "path": "results/model_policy_summary.csv",
+      "sha256": "64f56669ce1faa4b15263cf3734ca30a48295d2e50fed389e960f5dc9abe3e65",
+      "identical_to_previous": true
+    },
+    {
+      "path": "results/calibration_envelopes.csv",
+      "sha256": "44629a6e06d85d7f948b529adfdc19f48028edd5603604c3a7dcf2fafe38ae27",
+      "identical_to_previous": true
+    },
+    {
+      "path": "results/signed_channel_allocations.csv",
+      "sha256": "929d19933caa1e7a1b87980a0555b986768f2202a5083d321fb3085aa5410fb7",
+      "identical_to_previous": true
+    },
+    {
+      "path": "results/unit_channel_summary.csv",
+      "sha256": "3a3b50c654d95b0c41c2854b6954fb6e6a6e27c82a10740f021e1cb75e8b6533",
+      "identical_to_previous": true
+    },
+    {
+      "path": "results/hai_model_summary.csv",
+      "sha256": "f3e7201805da6b7867d3d311dc4006ecea03e80748f7ada931111392e95e2dbb",
+      "identical_to_previous": true
+    },
+    {
+      "path": "results/skab_boundary_summary.csv",
+      "sha256": "075c84042a99c17fde054727b565ee2a9be0877e72a6940a8204ccbdca3e4c03",
+      "identical_to_previous": true
+    },
+    {
+      "path": "received_corrected/verified_summary.csv",
+      "sha256": "a97bb6b802e9a263c6c105c0307052d7323be4af6d17b39c312b3da09a67698b",
+      "identical_to_previous": true
+    },
+    {
+      "path": "results/protocol_v2_development_replay.csv",
+      "sha256": "d09bdfc6d29899f19e3c5aa185f99b1a05cfc00e8af8ac73aeb012f3255ef541",
+      "identical_to_previous": true
+    },
+    {
+      "path": "protocol_validation/challenge_results.csv",
+      "sha256": "945b35874897975bff75a1a2aef318ac21bac7fa718d67073b1e89d2254721fe",
+      "identical_to_previous": true
+    },
+    {
+      "path": "protocol_validation/public_field_extraction.csv",
+      "sha256": "544f886b54722b9bcd54ab526f63af26a185ac842dc0d5abf4fb314cb6001e80",
+      "identical_to_previous": true
+    }
+  ],
+  "new_experiments": false,
+  "new_empirical_results": false,
+  "new_tables": []
+}

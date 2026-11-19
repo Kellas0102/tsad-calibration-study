@@ -1,0 +1,210 @@
+{
+ "completed": 10,
+ "expected": 10,
+ "summary": {
+  "machine-1-1": {
+   "n": 5,
+   "F1_mean": 0.6992,
+   "F1_std": 0.019,
+   "F1_budget_mean": 0.6986,
+   "per_seed": {
+    "123": 0.6919,
+    "2024": 0.7299,
+    "2026": 0.6821,
+    "42": 0.6878,
+    "7": 0.7043
+   },
+   "epochs_run": [
+    10
+   ],
+   "coverage_min": [
+    1
+   ],
+   "scores_finite_all": true,
+   "n_test_points": 28479
+  },
+  "machine-3-1": {
+   "n": 5,
+   "F1_mean": 0.361,
+   "F1_std": 0.0405,
+   "F1_budget_mean": 0.3649,
+   "per_seed": {
+    "123": 0.3153,
+    "2024": 0.3565,
+    "2026": 0.333,
+    "42": 0.3833,
+    "7": 0.4172
+   },
+   "epochs_run": [
+    10
+   ],
+   "coverage_min": [
+    1
+   ],
+   "scores_finite_all": true,
+   "n_test_points": 28700
+  }
+ },
+ "runs": [
+  {
+   "run_id": "timesnet_heldout_machine-1-1_seed123",
+   "entity": "machine-1-1",
+   "seed": 123,
+   "n_test_points": 28479,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.39298751443624497,
+   "thr_f1_value_on_val": 0.81680672,
+   "f1_test": 0.69189189,
+   "f1_test_budget_strategy": 0.69987923,
+   "epochs_run": 10,
+   "best_val_recon": 0.06298063,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-1-1_seed123"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-1-1_seed2024",
+   "entity": "machine-1-1",
+   "seed": 2024,
+   "n_test_points": 28479,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.5542982974648476,
+   "thr_f1_value_on_val": 0.80223881,
+   "f1_test": 0.72994162,
+   "f1_test_budget_strategy": 0.69698308,
+   "epochs_run": 10,
+   "best_val_recon": 0.05840361,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-1-1_seed2024"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-1-1_seed2026",
+   "entity": "machine-1-1",
+   "seed": 2026,
+   "n_test_points": 28479,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.34762434840202333,
+   "thr_f1_value_on_val": 0.8045977,
+   "f1_test": 0.68211253,
+   "f1_test_budget_strategy": 0.70042579,
+   "epochs_run": 10,
+   "best_val_recon": 0.06257637,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-1-1_seed2026"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-1-1_seed42",
+   "entity": "machine-1-1",
+   "seed": 42,
+   "n_test_points": 28479,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.38674298793077466,
+   "thr_f1_value_on_val": 0.87079646,
+   "f1_test": 0.68784195,
+   "f1_test_budget_strategy": 0.6904321,
+   "epochs_run": 10,
+   "best_val_recon": 0.05844548,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-1-1_seed42"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-1-1_seed7",
+   "entity": "machine-1-1",
+   "seed": 7,
+   "n_test_points": 28479,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.5195996579916581,
+   "thr_f1_value_on_val": 0.86164623,
+   "f1_test": 0.70434043,
+   "f1_test_budget_strategy": 0.70514305,
+   "epochs_run": 10,
+   "best_val_recon": 0.057154,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-1-1_seed7"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-3-1_seed123",
+   "entity": "machine-3-1",
+   "seed": 123,
+   "n_test_points": 28700,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.414787720143795,
+   "thr_f1_value_on_val": 0.79166667,
+   "f1_test": 0.3152815,
+   "f1_test_budget_strategy": 0.34905083,
+   "epochs_run": 10,
+   "best_val_recon": 0.05416433,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-3-1_seed123"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-3-1_seed2024",
+   "entity": "machine-3-1",
+   "seed": 2024,
+   "n_test_points": 28700,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.5261054462194443,
+   "thr_f1_value_on_val": 0.79789104,
+   "f1_test": 0.35646085,
+   "f1_test_budget_strategy": 0.35168961,
+   "epochs_run": 10,
+   "best_val_recon": 0.05055267,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-3-1_seed2024"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-3-1_seed2026",
+   "entity": "machine-3-1",
+   "seed": 2026,
+   "n_test_points": 28700,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.3997359822690487,
+   "thr_f1_value_on_val": 0.83229814,
+   "f1_test": 0.33295964,
+   "f1_test_budget_strategy": 0.36318715,
+   "epochs_run": 10,
+   "best_val_recon": 0.04842255,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-3-1_seed2026"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-3-1_seed42",
+   "entity": "machine-3-1",
+   "seed": 42,
+   "n_test_points": 28700,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.5475864386558533,
+   "thr_f1_value_on_val": 0.82417582,
+   "f1_test": 0.38334435,
+   "f1_test_budget_strategy": 0.37563452,
+   "epochs_run": 10,
+   "best_val_recon": 0.04835867,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-3-1_seed42"
+  },
+  {
+   "run_id": "timesnet_heldout_machine-3-1_seed7",
+   "entity": "machine-3-1",
+   "seed": 7,
+   "n_test_points": 28700,
+   "coverage_min": 1,
+   "coverage_max": 100,
+   "thr_f1": 0.8125270128250122,
+   "thr_f1_value_on_val": 0.85304659,
+   "f1_test": 0.41717791,
+   "f1_test_budget_strategy": 0.38476954,
+   "epochs_run": 10,
+   "best_val_recon": 0.04601636,
+   "scores_finite": true,
+   "dir": "timesnet_heldout_machine-3-1_seed7"
+  }
+ ]
+}

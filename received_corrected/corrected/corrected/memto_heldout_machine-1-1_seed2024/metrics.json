@@ -1,0 +1,62 @@
+{
+ "run_id": "memto_heldout_machine-1-1_seed2024",
+ "entity": "machine-1-1",
+ "seed": 2024,
+ "rescored_from_checkpoint": true,
+ "retrained": false,
+ "n_test_points": 28479,
+ "coverage_profile": {
+  "first5": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "middle": 100,
+  "tail5": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "peak": 100,
+  "min": 1
+ },
+ "threshold_exact_f1max": 0.011644874662160874,
+ "f1_test": 0.12200332,
+ "budget_strategies": {
+  "alpha_0.005": {
+   "k_rank": 5668,
+   "m": 5696,
+   "threshold": 0.08970820333634037,
+   "comparison": ">",
+   "f1_test": 0.13533835
+  },
+  "alpha_0.01": {
+   "k_rank": 5640,
+   "m": 5696,
+   "threshold": 0.03829572051763534,
+   "comparison": ">",
+   "f1_test": 0.12822439
+  },
+  "alpha_0.05": {
+   "k_rank": 5412,
+   "m": 5696,
+   "threshold": 0.0,
+   "comparison": ">",
+   "f1_test": 0.14862243
+  }
+ },
+ "state_pairing": {
+  "weights": "best normal-validation reconstruction loss (early stopping)",
+  "memory_items": "tensor at END of phase-2 training, saved separately",
+  "official_memto_does_same": true,
+  "memory_at_best_epoch_available": false,
+  "validation_updates_memory": true
+ },
+ "memory_sha256_loaded": "156633e7b54d6865d970e8e76ca39e8b2b270c3980b19e075ae3c965d353f99d",
+ "score_batch": 32,
+ "quarantined_source": "memto_heldout_machine-1-1_seed2024"
+}

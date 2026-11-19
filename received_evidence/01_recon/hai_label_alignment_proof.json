@@ -1,0 +1,32 @@
+{
+ "dir": "D:\\hai_raw",
+ "per_segment": {
+  "label-test1.csv": {
+   "loader_rows": 54001,
+   "true_rows": 54000,
+   "excess": 1,
+   "loader_first_value": 0,
+   "true_first_value": 0
+  },
+  "label-test2.csv": {
+   "loader_rows": 230401,
+   "true_rows": 230400,
+   "excess": 1,
+   "loader_first_value": 0,
+   "true_first_value": 0
+  }
+ },
+ "pooled": {
+  "feature_rows": 284400,
+  "loader_label_rows": 284402,
+  "true_label_rows": 284400,
+  "agree_loader_index": 284220,
+  "agree_loader_index_frac": 0.999367
+ },
+ "best_shift": {
+  "shift": 2,
+  "frac": 0.999902,
+  "n": 284398
+ },
+ "after_dropping_headers_frac": 1.0
+}

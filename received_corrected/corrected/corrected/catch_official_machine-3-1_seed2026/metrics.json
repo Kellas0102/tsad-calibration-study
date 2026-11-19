@@ -1,0 +1,204 @@
+{
+ "run_id": "catch_official_machine-3-1_seed2026",
+ "schedule": "official",
+ "entity": "machine-3-1",
+ "seed": 2026,
+ "n_test_points": 28700,
+ "f1_rng0": 0.29111531,
+ "f1_mean_over_rng": 0.29117042,
+ "f1_std_over_rng": 0.00015694,
+ "f1_range_over_rng": 0.00041293,
+ "replay_all_identical": true,
+ "distinct_score_hashes": 5,
+ "mask_step": 17,
+ "n_batches": 179,
+ "epochs": 3,
+ "coverage_tail": [
+  3,
+  2,
+  1
+ ],
+ "per_rng": [
+  {
+   "rng": 0,
+   "threshold": 0.09486534956842661,
+   "val_f1": 0.8098918083462133,
+   "f1_test": 0.29111531,
+   "score_sha256": "b4bad063e6eb2af92eb0cab40b784cba",
+   "replay_identical": true,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5712,
+     "m": 5740,
+     "threshold": 0.10071630507707596,
+     "comparison": ">",
+     "f1_test": 0.31428571
+    },
+    "alpha_0.01": {
+     "k_rank": 5683,
+     "m": 5740,
+     "threshold": 0.08115961354225874,
+     "comparison": ">",
+     "f1_test": 0.23655914
+    },
+    "alpha_0.05": {
+     "k_rank": 5453,
+     "m": 5740,
+     "threshold": 0.04510388042777777,
+     "comparison": ">",
+     "f1_test": 0.06435437
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "rng": 1,
+   "threshold": 0.0948463987186551,
+   "val_f1": 0.8098918083462133,
+   "f1_test": 0.2909778,
+   "score_sha256": "2ac9f057f7b042664548ac6f962bba45",
+   "replay_identical": null,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5712,
+     "m": 5740,
+     "threshold": 0.10083578787744045,
+     "comparison": ">",
+     "f1_test": 0.3147675
+    },
+    "alpha_0.01": {
+     "k_rank": 5683,
+     "m": 5740,
+     "threshold": 0.08113324858248233,
+     "comparison": ">",
+     "f1_test": 0.23637759
+    },
+    "alpha_0.05": {
+     "k_rank": 5453,
+     "m": 5740,
+     "threshold": 0.045100466050207615,
+     "comparison": ">",
+     "f1_test": 0.06438127
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "rng": 2,
+   "threshold": 0.09479302246123553,
+   "val_f1": 0.8098918083462133,
+   "f1_test": 0.29125296,
+   "score_sha256": "35ff70d85b45b6b618990b6c0b96bcf4",
+   "replay_identical": null,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5712,
+     "m": 5740,
+     "threshold": 0.10072461377829313,
+     "comparison": ">",
+     "f1_test": 0.31428571
+    },
+    "alpha_0.01": {
+     "k_rank": 5683,
+     "m": 5740,
+     "threshold": 0.08116847146302461,
+     "comparison": ">",
+     "f1_test": 0.23610579
+    },
+    "alpha_0.05": {
+     "k_rank": 5453,
+     "m": 5740,
+     "threshold": 0.04508726429194212,
+     "comparison": ">",
+     "f1_test": 0.0642805
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "rng": 3,
+   "threshold": 0.09489832118153572,
+   "val_f1": 0.8098918083462133,
+   "f1_test": 0.29139073,
+   "score_sha256": "22876d15ed94f1f8629fd8f0c33569a3",
+   "replay_identical": null,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5712,
+     "m": 5740,
+     "threshold": 0.10081700097769498,
+     "comparison": ">",
+     "f1_test": 0.3147675
+    },
+    "alpha_0.01": {
+     "k_rank": 5683,
+     "m": 5740,
+     "threshold": 0.08111144751310348,
+     "comparison": ">",
+     "f1_test": 0.23565417
+    },
+    "alpha_0.05": {
+     "k_rank": 5453,
+     "m": 5740,
+     "threshold": 0.04506436176598072,
+     "comparison": ">",
+     "f1_test": 0.0642068
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "rng": 4,
+   "threshold": 0.09481541126966476,
+   "val_f1": 0.8098918083462133,
+   "f1_test": 0.29111531,
+   "score_sha256": "975ef04b5084d7781d01346666f383a2",
+   "replay_identical": null,
+   "budget_strategies": {
+    "alpha_0.005": {
+     "k_rank": 5712,
+     "m": 5740,
+     "threshold": 0.10068979352712631,
+     "comparison": ">",
+     "f1_test": 0.3138054
+    },
+    "alpha_0.01": {
+     "k_rank": 5683,
+     "m": 5740,
+     "threshold": 0.08113820262253285,
+     "comparison": ">",
+     "f1_test": 0.23610579
+    },
+    "alpha_0.05": {
+     "k_rank": 5453,
+     "m": 5740,
+     "threshold": 0.04508488081395626,
+     "comparison": ">",
+     "f1_test": 0.06430734
+    }
+   },
+   "coverage_tail": [
+    3,
+    2,
+    1
+   ]
+  }
+ ],
+ "wall_time_s": 477.1
+}

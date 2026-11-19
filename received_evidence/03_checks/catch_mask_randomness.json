@@ -1,0 +1,25 @@
+{
+ "source_file": "C:\\Users\\98048\\Documents\\deepseek-harness\\default-workspace\\dmkd_official\\02_repos\\CATCH\\ts_benchmark\\baselines\\catch\\layers\\channel_mask.py",
+ "device": "cuda",
+ "eval_mode": true,
+ "no_grad": true,
+ "trials": 8,
+ "mask_shape": [
+  48,
+  8,
+  8
+ ],
+ "mask_diff_fraction_vs_first_run": [
+  0.4534505307674408,
+  0.4488932490348816,
+  0.4417317807674408,
+  0.4368489682674408,
+  0.42578125,
+  0.4358724057674408,
+  0.4264323115348816
+ ],
+ "max_diff_fraction": 0.4534505307674408,
+ "all_trials_identical": false,
+ "diagonal_always_one": true,
+ "verdict": "channel mask is resampled on every forward pass even under eval()/no_grad(); repeated scoring of identical weights on identical input is therefore not deterministic"
+}

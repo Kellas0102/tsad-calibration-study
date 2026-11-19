@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this score-level analysis code, please cite the associated manuscript after publication."
+title: "Fixed-score calibration sensitivity in time-series anomaly detection"
+type: software
+authors:
+  - family-names: Xu
+    given-names: Chengzhang
+    orcid: "https://orcid.org/0009-0004-0859-2095"
+  - family-names: Lin
+    given-names: Ziou
+    orcid: "https://orcid.org/0009-0002-1103-7071"
+version: "0.1.0-paa-candidate"
+date-released: 2026-11-19

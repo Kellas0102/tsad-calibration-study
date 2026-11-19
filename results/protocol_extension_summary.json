@@ -1,0 +1,114 @@
+{
+  "v1_frozen_challenges": {
+    "cases": 60,
+    "groups": {
+      "implemented_fault": {
+        "n": 16,
+        "matched": 16,
+        "predictions": {
+          "contradicted": 16
+        }
+      },
+      "missing_evidence": {
+        "n": 8,
+        "matched": 8,
+        "predictions": {
+          "not_evaluable": 8
+        }
+      },
+      "mixed_fault_missing": {
+        "n": 8,
+        "matched": 0,
+        "predictions": {
+          "not_evaluable": 8
+        }
+      },
+      "unimplemented_scope_probe": {
+        "n": 4,
+        "matched": 0,
+        "predictions": {
+          "within_scope": 4
+        }
+      },
+      "valid_control": {
+        "n": 24,
+        "matched": 24,
+        "predictions": {
+          "within_scope": 24
+        }
+      }
+    },
+    "affine_prediction_sets_identical": 4,
+    "sampling": "same-developer synthetic structured-evidence fixtures; no independent sample accuracy",
+    "engine_modified_after_freeze": false,
+    "issue": "missing-field short circuit can mask known contradictions; two scope predicates absent"
+  },
+  "v2_development_replay": {
+    "implemented_fault": {
+      "n": 16,
+      "v2_statuses": {
+        "contradicted": 16
+      }
+    },
+    "missing_evidence": {
+      "n": 8,
+      "v2_statuses": {
+        "not_evaluable": 8
+      }
+    },
+    "mixed_fault_missing": {
+      "n": 8,
+      "v2_statuses": {
+        "contradicted": 8
+      }
+    },
+    "unimplemented_scope_probe": {
+      "n": 4,
+      "v2_statuses": {
+        "not_evaluable": 4
+      }
+    },
+    "valid_control": {
+      "n": 24,
+      "v2_statuses": {
+        "not_evaluable": 4,
+        "within_scope": 20
+      }
+    }
+  },
+  "known_mixed_contradictions_retained": 8,
+  "unsupported_scope_probes_deferred": 4,
+  "deployment_controls_now_deferred": 4,
+  "public_reports": 10,
+  "public_fields": 60,
+  "public_field_counts": {
+    "metric": {
+      "partial": 1,
+      "explicit": 9
+    },
+    "calibration": {
+      "unresolved": 1,
+      "explicit": 7,
+      "partial": 1,
+      "not_applicable": 1
+    },
+    "temporal": {
+      "explicit": 10
+    },
+    "replication": {
+      "explicit": 6,
+      "partial": 3,
+      "not_applicable": 1
+    },
+    "artifact_pointer": {
+      "explicit": 8,
+      "unresolved": 2
+    },
+    "utility": {
+      "not_applicable": 10
+    }
+  },
+  "public_check_scope": "stored extraction consistency; contextual PDF checks recorded in research stage, not independently repeated here",
+  "new_independent_validation": false,
+  "human_verification": "pending"
+}

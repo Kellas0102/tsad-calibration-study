@@ -1,0 +1,8 @@
+{
+  "numbers_excluding_metric_name_F1": true,
+  "inline_math": true,
+  "equations": true,
+  "citations": true,
+  "references": true,
+  "note": "Metric name F1 occurs twice more after rewriting; numeric data are unchanged."
+}

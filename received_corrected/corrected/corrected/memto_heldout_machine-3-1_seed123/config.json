@@ -1,0 +1,147 @@
+{
+ "run_id": "memto_heldout_machine-3-1_seed123",
+ "group": "heldout",
+ "model": "MEMTO",
+ "entity": "machine-3-1",
+ "seed": 123,
+ "official_repo": "gunny97/MEMTO",
+ "official_commit": "5a3287103021c5c7e7cac9377c626cf18bdea50c",
+ "split": {
+  "entity": "machine-3-1",
+  "window": 100,
+  "raw_train_points": 28700,
+  "split_index_i80": 22960,
+  "train_segment": [
+   0,
+   22960
+  ],
+  "val_segment": [
+   22960,
+   28700
+  ],
+  "train_points": 22960,
+  "val_points": 5740,
+  "test_points": 28700,
+  "test_anomaly_rate": 0.010732,
+  "train_window_range": [
+   0,
+   22860
+  ],
+  "val_window_range": [
+   22960,
+   28600
+  ],
+  "n_train_windows": 22861,
+  "n_val_windows": 5641,
+  "n_test_windows": 28601,
+  "scaler_fit_range": [
+   0,
+   22960
+  ],
+  "disjointness": {
+   "train_val_overlap": 0,
+   "train_test_overlap": 0,
+   "val_test_overlap": 0,
+   "max_train_index": 22959,
+   "min_val_index": 22960
+  }
+ },
+ "capacity": {
+  "d_model": 512,
+  "n_memory": 128,
+  "n_heads": 8,
+  "e_layers": 3,
+  "d_ff": 512,
+  "shrпk_thres_effective": 0.0,
+  "shrink_thres_source": "TransformerVar formal default; Solver never passes it",
+  "n_params": 5902924
+ },
+ "training": {
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "epochs_requested": 10,
+  "batch": 8,
+  "lambd": 0.01,
+  "temperature": 0.05,
+  "train_step": 100,
+  "score_stride": 1,
+  "patience": 10,
+  "phase1_epochs": 10,
+  "phase2_epochs": 10,
+  "phase1_seconds": 21.0,
+  "phase2_seconds": 16.8,
+  "train_windows": 229,
+  "val_windows": 57,
+  "updates_phase1": 290,
+  "updates_phase2": 290
+ },
+ "checkpoints": {
+  "phase1_best_val_rec": 0.03143743,
+  "phase2_best_val_rec": 0.04308177,
+  "selection": "lowest normal-validation reconstruction loss"
+ },
+ "memory": {
+  "n_memory": 128,
+  "kmeans": "kmeans_pytorch on cuda:0 (official util)",
+  "mem_final_sha256": "0bc29b58e7379be9d49e47ee85fc93faef8ceabd97d5f4588c58f5e909885da7",
+  "mem_finite": true,
+  "gate_grad": "no gradient (memory reassigned outside autograd) - official behaviour"
+ },
+ "thresholds": {
+  "exact_f1max_highest_ge": {
+   "threshold": 0.004539784491062165,
+   "f1": 0.14655172413793102,
+   "tp": 34,
+   "fp": 136,
+   "fn": 260,
+   "comparison": ">=",
+   "n_scored": 5740
+  },
+  "budget_on_normal_val": {
+   "alpha_0.005": {
+    "k_rank": 5712,
+    "m": 5740,
+    "threshold": 0.008064888417720795,
+    "comparison": ">",
+    "f1_test": 0.0
+   },
+   "alpha_0.01": {
+    "k_rank": 5683,
+    "m": 5740,
+    "threshold": 0.005561992012221238,
+    "comparison": ">",
+    "f1_test": 0.0
+   },
+   "alpha_0.05": {
+    "k_rank": 5453,
+    "m": 5740,
+    "threshold": 0.003385206162929535,
+    "comparison": ">",
+    "f1_test": 0.00796813
+   }
+  }
+ },
+ "test_metrics": {
+  "f1_exact_f1max": 0.00835073,
+  "pa_applied": false
+ },
+ "patches": [
+  "P1 single-GPU (no DataParallel)",
+  "P2 fixed 80/20 split + scaler on 80%",
+  "P3 early stop on normal val",
+  "P4 thresholds from injected val only",
+  "P5 stride-1 scoring (official step=100 recorded)"
+ ],
+ "data_hashes": {
+  "train_part.npy": "6e67cd5460dd4ce6c0ead1c2778aafd40a557aee2d2017a96f1c97fc5269d261",
+  "val_part.npy": "b3ca6f4bda8c77b17c19606fce6e8b1236c9a01fda66b4536722c454268d2833",
+  "test.npy": "d43d2eb2744a1067723101efed1205f67a17b123cd147e733f4bd9506b4ea25c",
+  "test_label.npy": "80f7c5e974449d8d32c042545bcbf637197959f7c4e0550c26f134b43600cd45"
+ },
+ "rescored": {
+  "from_checkpoint": true,
+  "score_batch": 32,
+  "aggregation": "timeline2d (window i, position j -> time i*stride+j)",
+  "note": "original 1-D aggregation was wrong and is retained in the quarantined run for audit"
+ }
+}

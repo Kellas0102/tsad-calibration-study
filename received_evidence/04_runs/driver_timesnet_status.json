@@ -1,0 +1,62 @@
+[
+ {
+  "run_id": "timesnet_official_machine-1-1_seed7",
+  "status": "ok",
+  "seconds": 26.2,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-1-1_seed42",
+  "status": "ok",
+  "seconds": 26.5,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-1-1_seed123",
+  "status": "ok",
+  "seconds": 28.0,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-1-1_seed2024",
+  "status": "ok",
+  "seconds": 29.3,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-1-1_seed2026",
+  "status": "ok",
+  "seconds": 28.5,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-3-1_seed7",
+  "status": "ok",
+  "seconds": 29.9,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-3-1_seed42",
+  "status": "ok",
+  "seconds": 29.4,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-3-1_seed123",
+  "status": "ok",
+  "seconds": 29.1,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-3-1_seed2024",
+  "status": "ok",
+  "seconds": 29.1,
+  "rc": 0
+ },
+ {
+  "run_id": "timesnet_official_machine-3-1_seed2026",
+  "status": "ok",
+  "seconds": 29.8,
+  "rc": 0
+ }
+]

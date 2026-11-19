@@ -1,0 +1,135 @@
+{
+ "scoring_range": {
+  "limit_test": 60000,
+  "composition": "first 60,000 of concat(test1,test2): all 54,000 of test1 + first 6,000 of test2",
+  "source": "code/data.py DATASET_SPECS['hai']['series_limit'] = (100000, 60000)"
+ },
+ "alignment_audit": {
+  "segments": [
+   {
+    "features_file": "hai-test1.csv",
+    "labels_file": "label-test1.csv",
+    "n_feature_rows": 54000,
+    "n_label_rows": 54000,
+    "rows_equal": true,
+    "feature_ts_unique": true,
+    "label_ts_unique": true,
+    "n_distinct_label_ts": 54000,
+    "feature_ts_first": "2022-08-12 16:00:01",
+    "feature_ts_last": "2022-08-13 07:00:00",
+    "label_ts_first": "2022-08-12 16:00:01",
+    "label_ts_last": "2022-08-13 07:00:00",
+    "timestamp_positionally_equal": true
+   },
+   {
+    "features_file": "hai-test2.csv",
+    "labels_file": "label-test2.csv",
+    "n_feature_rows": 230400,
+    "n_label_rows": 230400,
+    "rows_equal": true,
+    "feature_ts_unique": true,
+    "label_ts_unique": false,
+    "n_distinct_label_ts": 3841,
+    "feature_ts_first": "2022-08-17 00:00:01",
+    "feature_ts_last": "2022-08-19 16:00:00",
+    "label_ts_first": "2022-08-17 0:00",
+    "label_ts_last": "2022-08-19 16:00",
+    "timestamp_positionally_equal": false,
+    "label_minute_bins": 3841,
+    "label_minutes_all_60_rows": false,
+    "label_minute_counts_summary": {
+     "min": 1,
+     "max": 60,
+     "n_bins": 3841
+    }
+   }
+  ],
+  "second_level_alignment_verified": false
+ },
+ "correct": {
+  "per_segment": [
+   {
+    "file": "label-test1.csv",
+    "rows": 54000,
+    "anomalies": 2981
+   },
+   {
+    "file": "label-test2.csv",
+    "rows": 230400,
+    "anomalies": 8403
+   }
+  ],
+  "pooled_rows": 284400,
+  "anomalies_in_range": 3114,
+  "rate_in_range": 0.0519
+ },
+ "loader": {
+  "per_segment": [
+   {
+    "file": "label-test1.csv",
+    "loader_rows": 54001,
+    "header_became_row": true
+   },
+   {
+    "file": "label-test2.csv",
+    "loader_rows": 230401,
+    "header_became_row": true
+   }
+  ],
+  "pooled_before_min": 284402,
+  "feature_rows_pooled": 284400,
+  "anomalies_in_range": 3114,
+  "rate_in_range": 0.0519
+ },
+ "difference_in_range": {
+  "n_points": 60000,
+  "n_differing": 32,
+  "fraction": 0.00053333,
+  "first_index": 1503,
+  "last_index": 59359,
+  "by_segment": {
+   "test1_positions": 54000,
+   "test1_differing": 28,
+   "test2_positions_in_range": 6000,
+   "test2_differing": 4
+  },
+  "head": [
+   1503,
+   1741,
+   5700,
+   5899,
+   9136,
+   9293,
+   12063,
+   12228,
+   16980,
+   17142,
+   20160,
+   20358,
+   24420,
+   25025,
+   27314,
+   27411,
+   30303,
+   30434,
+   34448,
+   34504,
+   37263,
+   37395,
+   41162,
+   41241,
+   45781,
+   45915,
+   49207,
+   49835,
+   59225,
+   59226
+  ]
+ },
+ "snapshot_label_check": {
+  "n_snapshots": 30,
+  "match": 30,
+  "mismatch": [],
+  "verdict": "simulated loader labels reproduce every snapshot label array"
+ }
+}
